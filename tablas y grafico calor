@@ -1,0 +1,898 @@
+# Tablas y
+# Gráficos
+# de Calor
+
+## Índice
+* [A. Metales](#a)
+* [B. No metales](#b)
+* [C. Aislantes](#c)
+* [D. Líquidos](#d)
+* [E. Agua](#e)
+* [F. Aire](#f)
+* [G. Gases](#g)
+* [H. Emisión](#h)
+* [I. Aletas](#i)
+* [J. Rad 1](#j)
+* [K. Rad 2](#k)
+* [L. Conv. forzada](#l)
+* [M. Conv. libre](#m)
+* [N. Funciones](#n)
+
+---
+
+## A. Metales <a name="a"></a>
+
+### Al puro
+Propiedades
+a 20ºC:
+$$\rho$$
+$$2707$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$0.896$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$k$$
+$$204$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$\alpha$$
+$$8.418 \times 10^{-5}$$
+$$\text{m}^2\text{/s}$$
+k vs T:
+$$-100^{\circ}\text{C}$$
+$$215$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$0^{\circ}\text{C}$$
+$$202$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$100^{\circ}\text{C}$$
+$$206$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$200^{\circ}\text{C}$$
+$$215$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$300^{\circ}\text{C}$$
+$$228$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$400^{\circ}\text{C}$$
+$$249$$
+$$\text{W/(m}\cdot\text{K)}$$
+
+---
+
+### Acero
+Acero carbono
+(C < 0.5%)
+Propiedades
+a 20ºC:
+$$\rho$$
+$$7833$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$0.465$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$k$$
+$$54$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$\alpha$$
+$$1.474 \times 10^{-5}$$
+$$\text{m}^2\text{/s}$$
+k vs T:
+$$100^{\circ}\text{C}$$
+$$55$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$200^{\circ}\text{C}$$
+$$52$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$300^{\circ}\text{C}$$
+$$48$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$400^{\circ}\text{C}$$
+$$45$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$600^{\circ}\text{C}$$
+$$35$$
+$$\text{W/(m}\cdot\text{K)}$$
+
+---
+
+### Fe puro
+Propiedades
+a 20ºC:
+$$\rho$$
+$$7897$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$0.452$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$k$$
+$$73$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$\alpha$$
+$$2.034 \times 10^{-5}$$
+$$\text{m}^2\text{/s}$$
+k vs T:
+$$-100^{\circ}\text{C}$$
+$$87$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$0^{\circ}\text{C}$$
+$$73$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$100^{\circ}\text{C}$$
+$$67$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$200^{\circ}\text{C}$$
+$$62$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$300^{\circ}\text{C}$$
+$$55$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$400^{\circ}\text{C}$$
+$$48$$
+$$\text{W/(m}\cdot\text{K)}$$
+
+---
+
+### Cu puro
+Propiedades
+a 20ºC:
+$$\rho$$
+$$8954$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$0.3831$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$k$$
+$$386$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$\alpha$$
+$$11.234 \times 10^{-5}$$
+$$\text{m}^2\text{/s}$$
+k vs T:
+$$-100^{\circ}\text{C}$$
+$$407$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$0^{\circ}\text{C}$$
+$$386$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$100^{\circ}\text{C}$$
+$$379$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$200^{\circ}\text{C}$$
+$$374$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$300^{\circ}\text{C}$$
+$$369$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$400^{\circ}\text{C}$$
+$$363$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$600^{\circ}\text{C}$$
+$$353$$
+$$\text{W/(m}\cdot\text{K)}$$
+
+---
+
+### Latón
+70% Cu,
+30% Zn
+Propiedades
+a 20ºC:
+$$\rho$$
+$$8522$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$0.385$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$k$$
+$$111$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$\alpha$$
+$$3.412 \times 10^{-5}$$
+$$\text{m}^2\text{/s}$$
+k vs T:
+$$0^{\circ}\text{C}$$
+$$88$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$100^{\circ}\text{C}$$
+$$128$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$200^{\circ}\text{C}$$
+$$144$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$300^{\circ}\text{C}$$
+$$147$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$400^{\circ}\text{C}$$
+$$147$$
+$$\text{W/(m}\cdot\text{K)}$$
+
+---
+
+### Plata pura
+Propiedades
+a 20ºC:
+$$\rho$$
+$$10524$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$0.2340$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$k$$
+$$419$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$\alpha$$
+$$17.004 \times 10^{-5}$$
+$$\text{m}^2\text{/s}$$
+k vs T:
+$$-100^{\circ}\text{C}$$
+$$419$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$0^{\circ}\text{C}$$
+$$417$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$100^{\circ}\text{C}$$
+$$415$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$200^{\circ}\text{C}$$
+$$412$$
+$$\text{W/(m}\cdot\text{K)}$$
+
+---
+
+### Plomo
+Propiedades
+a 20ºC:
+$$\rho$$
+$$11373$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$0.130$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$k$$
+$$35$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$\alpha$$
+$$2.343 \times 10^{-5}$$
+$$\text{m}^2\text{/s}$$
+k vs T:
+$$-100^{\circ}\text{C}$$
+$$36.9$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$0^{\circ}\text{C}$$
+$$35.1$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$100^{\circ}\text{C}$$
+$$33.4$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$200^{\circ}\text{C}$$
+$$31.5$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$300^{\circ}\text{C}$$
+$$29.8$$
+$$\text{W/(m}\cdot\text{K)}$$
+
+---
+
+## B. No metales <a name="b"></a>
+
+### Asfalto
+T entre 20 y
+55ºC:
+$$k$$
+$$0.74 - 0.76$$
+$$\text{W/(m}\cdot\text{K)}$$
+
+### Cemento
+Portland
+$$\rho$$
+$$1500$$
+$$\text{kg/m}^3$$
+$$k$$
+$$0.29$$
+$$\text{W/(m}\cdot\text{K)}$$
+
+### Grafito
+Pirolítico
+paralelo
+a capas:
+$$\rho$$
+$$2200$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$0.71$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$k$$
+$$1.900$$
+$$\text{W/(m}\cdot\text{K)}$$
+
+### Hormigón
+Hormigón de
+cenizas:
+$$k$$
+$$0.76$$
+$$\text{W/(m}\cdot\text{K)}$$
+
+### Ladrillo
+Común o de
+construcción:
+$$\rho$$
+$$1600$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$0.84$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$k$$
+$$0.69$$
+$$\text{W/(m}\cdot\text{K)}$$
+
+### Vidrio
+Vidrio común
+ventana:
+$$\rho$$
+$$2700$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$0.84$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$k$$
+$$0.78$$
+$$\text{W/(m}\cdot\text{K)}$$
+
+### Teflón
+Polímero
+$$\rho$$
+$$2200$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$1.05$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$k$$
+$$0.35$$
+$$\text{W/(m}\cdot\text{K)}$$
+
+---
+
+## C. Aislantes <a name="c"></a>
+
+### Corcho
+Aglomerado
+$$\rho$$
+$$45 - 120$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$1.88$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$k$$
+$$0.045$$
+$$\text{W/(m}\cdot\text{K)}$$
+
+### Fibra V
+Fibra de
+vidrio:
+$$\rho$$
+$$32$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$0.84$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$k$$
+$$0.038$$
+$$\text{W/(m}\cdot\text{K)}$$
+
+### Lana V
+Lana de
+vidrio
+$$\rho$$
+$$24$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$0.7$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$k$$
+$$0.038$$
+$$\text{W/(m}\cdot\text{K)}$$
+
+### Magnesia
+Magnesia 85%
+$$\rho$$
+$$270$$
+$$\text{kg/m}^3$$
+k vs T:
+$$38^{\circ}\text{C}$$
+$$0.067$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$93^{\circ}\text{C}$$
+$$0.071$$
+$$\text{W/(m}\cdot\text{K)}$$
+
+---
+
+## D. Líquidos <a name="d"></a>
+
+### Aceite M
+Aceite motor
+sin usar a
+20ºC:
+$$\rho$$
+$$888.23$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$1.880$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$k$$
+$$0.145$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$\nu$$
+$$0.00090$$
+$$\text{m}^2\text{/s}$$
+$$Pr$$
+$$10400$$
+
+### Amoniaco
+Amoniaco a
+20ºC:
+$$\rho$$
+$$611.75$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$4.798$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$k$$
+$$0.521$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$\nu$$
+$$0.359 \times 10^{-6}$$
+$$\text{m}^2\text{/s}$$
+$$Pr$$
+$$2.02$$
+
+### Mercurio
+Mercurio a
+20ºC:
+$$\rho$$
+$$13579.04$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$0.1394$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$k$$
+$$8.69$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$\nu$$
+$$0.114 \times 10^{-6}$$
+$$\text{m}^2\text{/s}$$
+$$Pr$$
+$$0.0249$$
+
+---
+
+## E. Agua <a name="e"></a>
+Agua (líquido
+saturado)
+
+### T = 0ºC
+(32ºF)
+$$\rho$$
+$$999.8$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$4.225$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$\mu$$
+$$1.79 \times 10^{-3}$$
+$$\text{kg/(m}\cdot\text{s)}$$
+$$k$$
+$$0.566$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$Pr$$
+$$13.25$$
+
+### T = 20ºC
+(68ºF)
+$$\rho$$
+$$998.2$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$4.182$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$\mu$$
+$$1.00 \times 10^{-3}$$
+$$\text{kg/(m}\cdot\text{s)}$$
+$$k$$
+$$0.598$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$Pr$$
+$$7.01$$
+
+### T = 40ºC
+(104ºF)
+$$\rho$$
+$$992.2$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$4.179$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$\mu$$
+$$0.653 \times 10^{-3}$$
+$$\text{kg/(m}\cdot\text{s)}$$
+$$k$$
+$$0.630$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$Pr$$
+$$4.33$$
+
+### T = 100ºC
+(212ºF)
+$$\rho$$
+$$958.4$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$4.216$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$\mu$$
+$$0.282 \times 10^{-3}$$
+$$\text{kg/(m}\cdot\text{s)}$$
+$$k$$
+$$0.680$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$Pr$$
+$$1.74$$
+
+---
+
+## F. Aire <a name="f"></a>
+Aire a
+presión
+atmosférica:
+
+### T = 200 K
+$$\rho$$
+$$1.7684$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$1.0061$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$\mu$$
+$$1.3289 \times 10^{-5}$$
+$$\text{kg/(m}\cdot\text{s)}$$
+$$\nu$$
+$$7.490 \times 10^{-6}$$
+$$\text{m}^2\text{/s}$$
+$$k$$
+$$0.01809$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$\alpha$$
+$$0.10165 \times 10^{-4}$$
+$$\text{m}^2\text{/s}$$
+$$Pr$$
+$$0.739$$
+
+### T = 300 K
+$$\rho$$
+$$1.1774$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$1.0057$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$\mu$$
+$$1.8462 \times 10^{-5}$$
+$$\text{kg/(m}\cdot\text{s)}$$
+$$\nu$$
+$$15.69 \times 10^{-6}$$
+$$\text{m}^2\text{/s}$$
+$$k$$
+$$0.02624$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$\alpha$$
+$$0.22160 \times 10^{-4}$$
+$$\text{m}^2\text{/s}$$
+$$Pr$$
+$$0.708$$
+
+### T = 400 K
+$$\rho$$
+$$0.8826$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$1.0140$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$\mu$$
+$$2.286 \times 10^{-5}$$
+$$\text{kg/(m}\cdot\text{s)}$$
+$$\nu$$
+$$25.90 \times 10^{-6}$$
+$$\text{m}^2\text{/s}$$
+$$k$$
+$$0.03365$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$\alpha$$
+$$0.3760 \times 10^{-4}$$
+$$\text{m}^2\text{/s}$$
+$$Pr$$
+$$0.689$$
+
+### T = 500 K
+$$\rho$$
+$$0.7048$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$1.0295$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$\mu$$
+$$2.671 \times 10^{-5}$$
+$$\text{kg/(m}\cdot\text{s)}$$
+$$\nu$$
+$$37.90 \times 10^{-6}$$
+$$\text{m}^2\text{/s}$$
+$$k$$
+$$0.04038$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$\alpha$$
+$$0.5564 \times 10^{-4}$$
+$$\text{m}^2\text{/s}$$
+$$Pr$$
+$$0.680$$
+
+---
+
+## G. Gases <a name="g"></a>
+Gases a
+presión
+atmosférica:
+
+### Nitrógeno
+N2 a 300 K:
+$$\rho$$
+$$1.1421$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$1.0408$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$\mu$$
+$$1.784 \times 10^{-5}$$
+$$\text{kg/(m}\cdot\text{s)}$$
+$$k$$
+$$0.02620$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$Pr$$
+$$0.713$$
+
+### Oxígeno
+O2 a 300 K:
+$$\rho$$
+$$1.3007$$
+$$\text{kg/m}^3$$
+$$c_p$$
+$$0.9203$$
+$$\text{kJ/(kg}\cdot\text{K)}$$
+$$\mu$$
+$$2.063 \times 10^{-5}$$
+$$\text{kg/(m}\cdot\text{s)}$$
+$$k$$
+$$0.02676$$
+$$\text{W/(m}\cdot\text{K)}$$
+$$Pr$$
+$$0.709$$
+
+---
+
+## H. Emisión <a name="h"></a>
+Emisividad
+total:
+
+### Metales
+Al pulido:
+$$\epsilon$$
+$$0.039 - 0.057$$
+a temperatura:
+$$440 - 1070^{\circ}\text{F}$$
+Cu pulido:
+$$\epsilon$$
+$$0.023$$
+a temperatura:
+$$242^{\circ}\text{F}$$
+Fe oxidado:
+$$\epsilon$$
+$$0.74$$
+a temperatura:
+$$212^{\circ}\text{F}$$
+Oro pulido:
+$$\epsilon$$
+$$0.018 - 0.035$$
+a temperatura:
+$$440 - 1160^{\circ}\text{F}$$
+Plata pulida:
+$$\epsilon$$
+$$0.020 - 0.032$$
+a temperatura:
+$$440 - 1160^{\circ}\text{F}$$
+
+### Otros M.
+Asbesto:
+$$\epsilon$$
+$$0.96$$
+a temperatura:
+$$74^{\circ}\text{F}$$
+Ladrillo ref:
+$$\epsilon$$
+$$0.75$$
+a temperatura:
+$$1832^{\circ}\text{F}$$
+Agua:
+$$\epsilon$$
+$$0.95 - 0.963$$
+a temperatura:
+$$32 - 212^{\circ}\text{F}$$
+Pinturas:
+$$\epsilon$$
+$$0.90 - 0.96$$
+
+---
+
+## I. Aletas <a name="i"></a>
+
+### Ec. general
+Parámetro m:
+$$m = \left(\frac{h P}{k A}\right)^{1/2}$$
+Unidad de m:
+$$\text{m}^{-1}$$
+
+### Aleta recta
+Perfil
+rectangular:
+Long. corr.
+$$L_c = L + \frac{t}{2}$$
+Área perfil
+$$A_p = L_c \cdot t$$
+Rendimiento
+$$\eta_f = \frac{\tanh(m L_c)}{m L_c}$$
+
+### Triangular
+Long. corr.
+$$L_c = L$$
+Área perfil
+$$A_p = \frac{L\cdot t}{2}$$
+
+### Anular
+Perfil
+rectangular:
+Radio corr.
+$$r_{2c} = r_2 + \frac{t}{2}$$
+Long. corr.
+$$L_c = L + \frac{t}{2}$$
+Área perfil
+$$A_p = L_c \cdot t$$
+
+---
+
+## J. Rad 1 <a name="j"></a>
+Factores de
+forma:
+
+### Leyes
+Reciprocidad:
+$$A_i F_{ij} = A_j F_{ji}$$
+Aditividad:
+$$F_{i(j+k)} = F_{ij} + F_{ik}$$
+Recinto:
+$$\sum_{j=1}^n F_{ij} = 1$$
+
+---
+
+## K. Rad 2 <a name="k"></a>
+
+### Cilindros
+Concéntricos
+1 (interior)
+2 (exterior):
+$$F_{11} = 0$$
+$$F_{12} = 1$$
+$$F_{21} = \frac{r_1}{r_2}$$
+$$F_{22} = 1 - \frac{r_1}{r_2}$$
+
+---
+
+## L. Conv. forzada <a name="l"></a>
+
+### Def. Núm
+Nusselt:
+$$Nu = \frac{h \cdot x}{k}$$
+Reynolds:
+$$Re = \frac{\rho\cdot v\cdot x}{\mu}$$
+Prandtl:
+$$Pr = \frac{\mu \cdot c_p}{k}$$
+Grashof:
+$$Gr = \frac{g \beta \Delta T x^3}{\nu^2}$$
+
+### Placa plana
+Laminar
+(Re < 5e5):
+$$Nu_x = 0.332 \cdot Re_x^{1/2} \cdot Pr^{1/3}$$
+$$Nu_L = 0.664 \cdot Re_L^{1/2} \cdot Pr^{1/3}$$
+Turbulento
+(Re > 5e5):
+$$Nu_x = 0.0296 \cdot Re_x^{4/5} \cdot Pr^{1/3}$$
+$$Nu_L = (0.037 \cdot Re_L^{4/5} - 871) \cdot Pr^{1/3}$$
+
+### Tuberías
+Laminar
+(Re < 2300):
+Muy larga
+(Ts = cte)
+$$Nu_D = 3.66$$
+Calor cte
+$$Nu_D = 4.36$$
+Turbulento
+(Dittus B.):
+$$Nu_D = 0.023 \cdot Re_D^{4/5} \cdot Pr^n$$
+n = 0.4
+calentando
+n = 0.3
+enfriando
+
+---
+
+## M. Conv. libre <a name="m"></a>
+Ecuación:
+$$Nu = C \cdot (Gr \cdot Pr)^m$$
+
+### Cil. Horiz.
+Laminar
+(1e4-1e9):
+$$C = 0.53$$
+$$m = 1/4$$
+Turbulento
+(1e9-1e12):
+$$C = 0.13$$
+$$m = 1/3$$
+
+### Placas V.
+Laminar
+(1e4-1e9):
+$$C = 0.59$$
+$$m = 1/4$$
+Turbulento
+(1e9-1e13):
+$$C = 0.10$$
+$$m = 1/3$$
+
+---
+
+## N. Funciones <a name="n"></a>
+
+### Gradiente
+Cartesianas:
+$$\nabla T = \frac{\partial T}{\partial x}\vec{i} + \frac{\partial T}{\partial y}\vec{j} + \frac{\partial T}{\partial z}\vec{k}$$
+Cilíndricas:
+$$\nabla T = \frac{\partial T}{\partial r}\vec{u}_r + \frac{1}{r}\frac{\partial T}{\partial \phi}\vec{u}_{\phi} + \frac{\partial T}{\partial z}\vec{u}_z$$
+
+### Laplaciano
+Cartesianas:
+$$\nabla^2 T = \frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2} + \frac{\partial^2 T}{\partial z^2}$$
+Cilíndricas:
+$$\nabla^2 T = \frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial T}{\partial r}\right) + \frac{1}{r^2}\frac{\partial^2 T}{\partial \phi^2} + \frac{\partial^2 T}{\partial z^2}$$
+
+### Hiperból.
+Sinh x:
+$$\sinh(x) = \frac{e^x - e^{-x}}{2}$$
+Cosh x:
+$$\cosh(x) = \frac{e^x + e^{-x}}{2}$$
+Tanh x:
+$$\tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$$
+Valores ref:
+x = 0:
+$$\sinh = 0$$
+$$\cosh = 1$$
+$$\tanh = 0$$
+x = 0.5:
+$$\sinh = 0.5211$$
+$$\cosh = 1.1276$$
+$$\tanh = 0.4621$$
+x = 1.0:
+$$\sinh = 1.1752$$
+$$\cosh = 1.5431$$
+$$\tanh = 0.7616$$
+x = 2.0:
+$$\sinh = 3.6269$$
+$$\cosh = 3.7622$$
+$$\tanh = 0.9640$$
