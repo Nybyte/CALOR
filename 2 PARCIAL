@@ -1,0 +1,969 @@
+# Problemas y Ejercicios - Segundo Parcial
+
+Este documento contendrá una recopilación de problemas (resueltos paso a paso) para la preparación del segundo parcial.
+
+## Índice
+1. [Problemas de Transmisión de Calor por Conducción](#conduccion)
+2. [Problemas de Convección y Cambios de Fase](#conveccion)
+3. [Problemas de Radiación Térmica](#radiacion)
+4. [Otros Sistemas Termodinámicos y Ciclos Avanzados](#ciclos-avanzados)
+
+---
+
+<a name="conduccion"></a>
+## 1. Problemas de Transmisión de Calor por Conducción
+
+(Próximamente)
+
+---
+
+<a name="conveccion"></a>
+## 2. Problemas de Convección y Cambios de Fase
+
+### Problema 1
+
+Horno de tres
+superficies.
+
+Datos y
+propiedades:
+
+Placa inferior
+(Suelo, 1):
+
+$$
+\varepsilon_1 = 0,6
+$$
+$$
+T_1 = 200
+$$
+$$
+^{\circ}\text{C}
+$$
+$$
+T_1 = 473
+$$
+$$
+\text{K}
+$$
+$$
+A_1 = 3,5 \times 3
+$$
+$$
+A_1 = 10,5
+$$
+$$
+\text{m}^2
+$$
+
+Placa superior
+(Techo, 2):
+
+$$
+\varepsilon_2 = 0,8
+$$
+$$
+T_2 = 400
+$$
+$$
+^{\circ}\text{C}
+$$
+$$
+T_2 = 673
+$$
+$$
+\text{K}
+$$
+$$
+A_2 = 10,5
+$$
+$$
+\text{m}^2
+$$
+
+Paredes (3):
+
+Rerradiantes.
+
+$$
+q_3 = 0
+$$
+
+Constante de
+Stefan-
+Boltzmann:
+
+$$
+\sigma = 5,67\cdot 10^{-8}
+$$
+$$
+\text{W}/(\text{m}^2\cdot\text{K}^4)
+$$
+
+a) Circuito
+térmico:
+
+El horno es
+un recinto de
+3 superficies.
+El suelo y el
+techo son
+grises, y las
+paredes son
+rerradiantes
+(punto flotante
+$J_3 = E_{b3}$).
+
+b) Flujo de
+calor neto:
+
+Factores de
+forma (Tabla J):
+
+$$
+L_1/D = 0,78
+$$
+$$
+L_2/D = 0,67
+$$
+$$
+F_{12} \approx 0,125
+$$
+
+Propiedades de
+factores:
+
+$$
+F_{11} = 0
+$$
+$$
+F_{13} = 1 - F_{12}
+$$
+$$
+F_{13} = 0,875
+$$
+$$
+F_{23} = F_{13}
+$$
+$$
+F_{23} = 0,875
+$$
+
+Resistencias:
+
+$$
+R_1 = \frac{1-\varepsilon_1}{A_1\varepsilon_1}
+$$
+$$
+R_1 = 0,06349
+$$
+$$
+\text{m}^{-2}
+$$
+$$
+R_{12} = \frac{1}{A_1 F_{12}}
+$$
+$$
+R_{12} = 0,7619
+$$
+$$
+\text{m}^{-2}
+$$
+$$
+R_{13} = R_{23}
+$$
+$$
+R_{13} = 0,1088
+$$
+$$
+\text{m}^{-2}
+$$
+$$
+R_2 = \frac{1-\varepsilon_2}{A_2\varepsilon_2}
+$$
+$$
+R_2 = 0,02381
+$$
+$$
+\text{m}^{-2}
+$$
+
+Resistencia
+equivalente:
+
+$$
+R_{eq1} = \left(\frac{1}{R_{12}} + \frac{1}{R_{13}+R_{23}}\right)^{-1}
+$$
+$$
+R_{eq1} = 0,1693
+$$
+$$
+\text{m}^{-2}
+$$
+$$
+R_{eq} = R_1 + R_{eq1} + R_2
+$$
+$$
+R_{eq} = 0,2566
+$$
+$$
+\text{m}^{-2}
+$$
+
+Flujo de calor:
+
+$$
+q_1 = \frac{E_{b1} - E_{b2}}{R_{eq}}
+$$
+$$
+q_1 = \frac{\sigma(T_1^4 - T_2^4)}{R_{eq}}
+$$
+$$
+q_1 = -34269,7
+$$
+$$
+\text{W}
+$$
+
+Radiosidades:
+
+$$
+J_1 = E_{b1} - q_1R_1
+$$
+$$
+J_1 = 5013,9
+$$
+$$
+\text{W}/\text{m}^2
+$$
+$$
+J_2 = E_{b2} + q_1R_2
+$$
+$$
+J_2 = 10815,7
+$$
+$$
+\text{W}/\text{m}^2
+$$
+
+Radiación suelo
+y techo:
+
+$$
+q_{12} = \frac{J_1 - J_2}{R_{12}}
+$$
+$$
+q_{12} = -7614,9
+$$
+$$
+\text{W}
+$$
+
+c) Temperatura
+paredes:
+
+$$
+E_{b3} = \sigma T_3^4
+$$
+
+En el circuito:
+
+$$
+E_{b3} = \frac{J_1 + J_2}{2}
+$$
+$$
+E_{b3} = 7914,8
+$$
+$$
+\text{W}/\text{m}^2
+$$
+$$
+T_3 = \left(\frac{E_{b3}}{\sigma}\right)^{1/4}
+$$
+$$
+T_3 = 611,24
+$$
+$$
+\text{K}
+$$
+$$
+T_3 = 338
+$$
+$$
+^{\circ}\text{C}
+$$
+
+### Problema 2
+
+Dos placas
+rectangulares
+unidas por una
+arista.
+
+Datos y
+propiedades:
+
+Placa vertical
+(Negra, 1):
+
+$$
+T_1 = 780
+$$
+$$
+^{\circ}\text{C}
+$$
+$$
+T_1 = 1053
+$$
+$$
+\text{K}
+$$
+$$
+q_1 = 1792,5
+$$
+$$
+\text{kW}
+$$
+$$
+L = 4,9
+$$
+$$
+\text{m}
+$$
+$$
+D = 5,4
+$$
+$$
+\text{m}
+$$
+
+Placa
+horizontal
+(Gris, 2):
+
+$$
+\varepsilon_2 = 0,69
+$$
+$$
+W = 3,7
+$$
+$$
+\text{m}
+$$
+
+Paredes de
+habitación (3):
+
+$$
+T_3 = 15
+$$
+$$
+^{\circ}\text{C}
+$$
+$$
+T_3 = 288
+$$
+$$
+\text{K}
+$$
+$$
+\varepsilon_3 = 0,69
+$$
+
+a) Flujo entre
+placa 1 y
+paredes:
+
+Habitación
+grande:
+
+$$
+A_3 \gg A_1, A_2
+$$
+$$
+R_3 \to 0
+$$
+$$
+J_3 = E_{b3}
+$$
+
+Flujo 1-3:
+
+$$
+q_{13} = A_1 F_{13}\sigma(T_1^4 - T_3^4)
+$$
+
+Factores de
+forma (J2):
+
+$$
+R_1 = \frac{4,9}{5,4} = 0,907
+$$
+$$
+R_2 = \frac{3,7}{5,4} = 0,685
+$$
+$$
+F_{12} = 0,19
+$$
+
+Aditividad y
+reciprocidad:
+
+$$
+F_{13} = 1 - F_{12}
+$$
+$$
+F_{13} = 0,81
+$$
+$$
+A_1 F_{12} = A_2 F_{21}
+$$
+$$
+F_{21} = \frac{A_1}{A_2}F_{12}
+$$
+$$
+F_{21} = 0,25
+$$
+$$
+F_{23} = 1 - F_{21}
+$$
+$$
+F_{23} = 0,75
+$$
+
+Sustituyendo:
+
+$$
+q_{13} = A_1\cdot 0,81
+$$
+$$
+\cdot\sigma(1053^4 - 288^4)
+$$
+$$
+q_{13} = 1485,7
+$$
+$$
+\text{kW}
+$$
+
+b) Flujo neto
+entre placas:
+
+Balance:
+
+$$
+q_1 = q_{12} + q_{13}
+$$
+$$
+q_{12} = q_1 - q_{13}
+$$
+$$
+q_{12} = 306,82
+$$
+$$
+\text{kW}
+$$
+
+c) Temperatura
+placa 2:
+
+$$
+q_2 = \frac{E_{b2} - J_2}{R_2}
+$$
+$$
+E_{b2} = q_2R_2 + J_2
+$$
+$$
+T_2 = \left(\frac{q_2R_2 + J_2}{\sigma}\right)^{1/4}
+$$
+
+Radiosidad J2:
+
+$$
+q_{12} = \frac{E_{b1} - J_2}{R_{12}}
+$$
+$$
+J_2 = \sigma T_1^4 - \frac{q_{12}}{A_1F_{12}}
+$$
+$$
+J_2 = 8680,7
+$$
+$$
+\text{W}/\text{m}^2
+$$
+
+Balance J2:
+
+$$
+q_2 + q_{12} = q_{23}
+$$
+$$
+q_2 = q_{23} - q_{12}
+$$
+
+Flujo q23:
+
+$$
+q_{23} = A_2F_{23}(J_2 - \sigma T_3^4)
+$$
+$$
+q_{23} = 124,23
+$$
+$$
+\text{kW}
+$$
+
+Flujo neto q2:
+
+$$
+q_2 = 124,23 - 306,82
+$$
+$$
+q_2 = -182,59
+$$
+$$
+\text{kW}
+$$
+
+Temperatura 2:
+
+$$
+T_2 = 533
+$$
+$$
+\text{K}
+$$
+$$
+T_2 = 260
+$$
+$$
+^{\circ}\text{C}
+$$
+
+### Problema 3
+
+Horno cilíndrico
+abierto.
+
+Datos y
+propiedades:
+
+Placa
+calefactora (1):
+
+$$
+\varepsilon_1 = 0,9
+$$
+$$
+T_1 = 500
+$$
+$$
+^{\circ}\text{C}
+$$
+$$
+T_1 = 773
+$$
+$$
+\text{K}
+$$
+$$
+D = 0,5
+$$
+$$
+\text{m}
+$$
+
+Superficie
+lateral (2):
+
+Aislada.
+
+$$
+\varepsilon_2 = 0,6
+$$
+$$
+L = 0,5
+$$
+$$
+\text{m}
+$$
+
+Habitación (3):
+
+$$
+T_3 = 27
+$$
+$$
+^{\circ}\text{C}
+$$
+$$
+T_3 = 300
+$$
+$$
+\text{K}
+$$
+$$
+\varepsilon_3 = 0,8
+$$
+
+a) Circuito
+térmico:
+
+El recinto tiene
+3 superficies.
+La pared lateral
+está aislada,
+así que es un
+nudo flotante y:
+
+$$
+J_2 = E_{b2}
+$$
+
+Habitación
+grande:
+
+$$
+R_3 \to 0
+$$
+
+b) Flujo neto
+placa (1):
+
+Factor de
+forma 1-3:
+Superficie
+imaginaria 3':
+
+$$
+d/x = 1
+$$
+$$
+F_{13'} \approx 0,18
+$$
+$$
+F_{13} = 0,18
+$$
+
+Área placa:
+
+$$
+A_1 = \pi r^2
+$$
+$$
+A_1 = 19,63\cdot 10^{-2}
+$$
+$$
+\text{m}^2
+$$
+
+Resistencias
+de forma:
+
+$$
+R_{13} = \frac{1}{A_1F_{13}}
+$$
+$$
+R_{13} = 28,3
+$$
+$$
+\text{m}^{-2}
+$$
+$$
+F_{12} = 1 - F_{13}
+$$
+$$
+F_{12} = 0,82
+$$
+$$
+R_{12} = \frac{1}{A_1F_{12}}
+$$
+$$
+R_{12} = 6,21
+$$
+$$
+\text{m}^{-2}
+$$
+
+Por simetría:
+
+$$
+F_{32} = F_{12} = 0,82
+$$
+$$
+R_{23} = 6,21
+$$
+$$
+\text{m}^{-2}
+$$
+
+Resistencia
+superficial:
+
+$$
+R_1 = \frac{1-\varepsilon_1}{A_1\varepsilon_1}
+$$
+$$
+R_1 = 0,566
+$$
+$$
+\text{m}^{-2}
+$$
+
+Resistencia
+equivalente:
+
+$$
+R_{eq} = R_1 + R_{eq1}
+$$
+$$
+R_{eq1} = \left(\frac{1}{R_{12}+R_{23}} + \frac{1}{R_{13}}\right)^{-1}
+$$
+$$
+R_{eq} = 9,20
+$$
+$$
+\text{m}^{-2}
+$$
+
+Flujo de calor:
+
+$$
+q_1 = \frac{\sigma(T_1^4 - T_3^4)}{R_{eq}}
+$$
+$$
+q_1 = 2150,5
+$$
+$$
+\text{W}
+$$
+
+c) Temperatura
+superficie 2:
+
+$$
+E_{b2} = \sigma T_2^4
+$$
+
+Nudo flotante:
+
+$$
+E_{b2} = \frac{R_{12}E_{b3} + R_{23}J_1}{R_{12} + R_{23}}
+$$
+
+Radiosidad 1:
+
+$$
+J_1 = E_{b1} - q_1R_1
+$$
+$$
+J_1 = 19027,0
+$$
+$$
+\text{W}/\text{m}^2
+$$
+
+Sustituyendo:
+
+$$
+E_{b2} = 9743,1
+$$
+$$
+\text{W}/\text{m}^2
+$$
+
+Temperatura 2:
+
+$$
+T_2 = \left(\frac{E_{b2}}{\sigma}\right)^{1/4}
+$$
+$$
+T_2 = 644
+$$
+$$
+\text{K}
+$$
+$$
+T_2 = 371
+$$
+$$
+^{\circ}\text{C}
+$$
+
+### Problema 4
+
+Colector solar
+(triángulo
+equilátero).
+
+Datos y
+propiedades:
+
+Conducto:
+Largo infinito.
+Lado:
+
+$$
+L = 1,0
+$$
+$$
+\text{m}
+$$
+
+Cubierta de
+vidrio (1):
+
+$$
+\varepsilon_1 = 0,9
+$$
+$$
+T_1 = 25
+$$
+$$
+^{\circ}\text{C}
+$$
+$$
+T_1 = 298
+$$
+$$
+\text{K}
+$$
+
+Placa
+absorbente 2
+(Negra):
+
+$$
+T_2 = 60
+$$
+$$
+^{\circ}\text{C}
+$$
+$$
+T_2 = 333
+$$
+$$
+\text{K}
+$$
+
+Placa
+absorbente 3
+(Negra):
+
+$$
+T_3 = 70
+$$
+$$
+^{\circ}\text{C}
+$$
+$$
+T_3 = 343
+$$
+$$
+\text{K}
+$$
+
+a) Circuito
+térmico:
+
+El conducto es
+muy largo, se
+desprecian los
+extremos.
+Es un recinto
+cerrado de 3
+superficies.
+Superficie 1 es
+gris.
+Superficies 2
+y 3 son negras.
+
+b) Flujo neto
+cubierta (1):
+
+Ecuaciones:
+
+$$
+q_1 = \frac{E_{b1} - J_1}{R_1}
+$$
+$$
+q_1 = q_{12} + q_{13}
+$$
+$$
+q_{12} = \frac{J_1 - E_{b2}}{R_{12}}
+$$
+$$
+q_{13} = \frac{J_1 - E_{b3}}{R_{13}}
+$$
+
+Igualando:
+
+$$
+\frac{E_{b1} - J_1}{R_1} = q_{12} + q_{13}
+$$
+
+Despejando J1:
+
+$$
+J_1 = \frac{\frac{\varepsilon_1}{1-\varepsilon_1}E_{b1} + F_{12}E_{b2} + F_{13}E_{b3}}{F_{12} + F_{13} + \frac{\varepsilon_1}{1-\varepsilon_1}}
+$$
+
+Factores de
+forma:
+
+Áreas iguales:
+
+$$
+A_1 = A_2 = A_3 = A
+$$
+
+Por simetría:
+
+$$
+F_{12} = F_{13} = F_{23}
+$$
+
+Aditividad:
+
+$$
+F_{11} + 2F_{12} = 1
+$$
+$$
+F_{12} = 1/2
+$$
+
+Radiosidad 1:
+
+$$
+J_1 = 476,53
+$$
+$$
+\text{W}/\text{m}^2
+$$
+
+Flujo de calor
+por longitud:
+
+$$
+q'_1 = \frac{\sigma T_1^4 - J_1}{\frac{1-\varepsilon_1}{L\cdot\varepsilon_1}}
+$$
+$$
+q'_1 = -264,5
+$$
+$$
+\text{W}/\text{m}
+$$
+
+---
+
+<a name="radiacion"></a>
+## 3. Problemas de Radiación Térmica
+
+(Próximamente)
+
+---
+
+<a name="ciclos-avanzados"></a>
+## 4. Otros Sistemas Termodinámicos y Ciclos Avanzados
+
+(Próximamente)
