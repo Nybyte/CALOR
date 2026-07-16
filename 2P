@@ -1,0 +1,768 @@
+# Teoria Calor 2P
+
+Parcial: 2P
+
+* [P1: Flujo](#p1-flujo)
+* [P2: Resistencia](#p2-resistencia)
+* [P3: Hilo cobre](#p3-hilo-cobre)
+* [P4: Rend. aleta](#p4-rend-aleta)
+* [P5: Coef. glob](#p5-coef-glob)
+* [P6: Rend. aleta 2](#p6-rend-aleta-2)
+* [P7: Radiativas](#p7-radiativas)
+* [P8: Rerradiante](#p8-rerradiante)
+* [P9: Pantalla](#p9-pantalla)
+* [P10: F. forma](#p10-f-forma)
+* [P11: Temp. tubo](#p11-temp-tubo)
+* [P12: Triangulo](#p12-triangulo)
+* [P13: Emisiva J](#p13-emisiva-j)
+* [P14: Respuesta](#p14-respuesta)
+* [P15: Cuerpo N](#p15-cuerpo-n)
+* [P16: Radiosidad](#p16-radiosidad)
+* [P17: Conduccion](#p17-conduccion)
+* [P18: Perfil k](#p18-perfil-k)
+* [P19: Aislamiento](#p19-aislamiento)
+* [P20: Emision N](#p20-emision-n)
+* [P21: Recinto C](#p21-recinto-c)
+* [P22: Unidad R](#p22-unidad-r)
+* [P23: Coef global](#p23-coef-global)
+* [P24: Contacto](#p24-contacto)
+* [P25: Constante t](#p25-constante-t)
+* [P26: Tabiques](#p26-tabiques)
+* [P27: Serie e k](#p27-serie-e-k)
+* [P28: Pared cort](#p28-pared-cort)
+* [P29: Constante](#p29-constante)
+* [P30: Coef comb](#p30-coef-comb)
+* [P31: Emisiva Eb](#p31-emisiva-eb)
+* [P32: Aditividad](#p32-aditividad)
+* [P33: Serie q 3](#p33-serie-q-3)
+* [P34: Espesor c](#p34-espesor-c)
+* [P35: Flujo alet](#p35-flujo-alet)
+* [P36: Planos p](#p36-planos-p)
+* [P37: Termopar](#p37-termopar)
+* [P38: Corriente](#p38-corriente)
+* [P39: Pared A B](#p39-pared-a-b)
+* [P40: Tubo 3mm](#p40-tubo-3mm)
+
+---
+
+## P1: Flujo
+[Descripcion
+de la imagen:
+Corte de una
+pared con dos
+bloques de
+espesor
+$$e$$
+en serie.
+Bloque 1
+(izquierda)
+con
+$$k_1$$
+y bloque 2
+(derecha)
+con
+$$k_2$$
+.
+$$k_1 = 2k_2$$
+. Flechas
+horizontales
+muestran
+flujos
+$$q_1$$
+y
+$$q_2$$
+.]
+Pared compuesta
+de materiales
+con espesor
+$$e$$
+y
+$$k_1 = 2k_2$$
+: en regimen
+estacionario la
+relacion de
+flujos es:
+$$q_1 = q_2$$
+.
+
+---
+
+## P2: Resistencia
+Pared con area
+$$10$$
+$$\text{m}^2$$
+y resistencia
+$$0,2$$
+$$\text{K/W}$$
+: resistencia
+por unidad de
+area es:
+$$2$$
+$$\text{m}^2\cdot\text{K/W}$$
+.
+
+---
+
+## P3: Hilo cobre
+Hilo cobre de
+$$2$$
+$$\text{mm}$$
+recubierto con
+aislante de
+$$0,05$$
+$$\text{W/(m}\cdot\text{K)}$$
+y
+$$h = 10$$
+$$\text{W/(m}^2\cdot\text{K)}$$
+: disipa mas
+calor con
+espesor:
+$$e = 4$$
+$$\text{mm}$$
+.
+
+---
+
+## P4: Rend. aleta
+El rendimiento
+de una aleta
+aumenta al
+aumentar la
+conductividad
+termica del
+material
+$$k$$
+.
+
+---
+
+## P5: Coef. glob
+En tuberias, la
+relacion entre
+coeficientes
+globales y
+areas interior
+e exterior:
+$$U_{\text{ext}}A_{\text{ext}} = U_{\text{int}}A_{\text{int}}$$
+.
+
+---
+
+## P6: Rend. aleta 2
+El rendimiento
+de aleta es la
+relacion entre
+flujo de calor
+disipado y el
+disipado si la
+aleta fuese
+isoterma.
+
+---
+
+## P7: Radiativas
+Superficies
+grises:
+$$\epsilon + \alpha + \rho = 1$$
+y
+$$\tau = 0$$
+.
+
+---
+
+## P8: Rerradiante
+Superficie
+rerradiante en
+estado
+estacionario,
+la radiosidad
+$$J_i$$
+es igual a la
+potencia
+emisiva de
+cuerpo negro:
+$$J_i = E_b(T_i)$$
+.
+
+---
+
+## P9: Pantalla
+Reduccion de
+flujo de calor
+por pantalla
+de radiacion
+es mayor
+cuanto menor
+sea la
+emisividad
+$$\epsilon$$
+de sus caras.
+
+---
+
+## P10: F. forma
+[Descripcion
+de la imagen:
+Dos placas
+perpendiculares
+formando una L.
+Vertical es 1.
+Horizontal es
+superficie 2,
+dividida en
+segmento a
+(cercano a la
+esquina) y b
+(lejano).]
+Para las
+superficies
+perpendiculares.
+Figura: L con
+vertical 1 y
+horizontal 2.
+La 2 se divide
+en segmentos
+a (cerca) y
+b (lejos).
+Se verifica:
+$$F_{12} = F_{1a} + F_{1b}$$
+.
+
+---
+
+## P11: Temp. tubo
+En una tuberia
+en regimen
+estacionario
+con
+$$T_1$$
+y
+$$T_2$$
+, la
+temperatura
+$$T$$
+en la mitad
+del espesor
+verifica:
+$$T > \frac{T_1 + T_2}{2}$$
+.
+
+---
+
+## P12: Triangulo
+En conducto
+infinitamente
+largo de
+seccion
+triangular
+equilatera:
+$$F_{12} = F_{13} = F_{23} = \frac{1}{2}$$
+.
+
+---
+
+## P13: Emisiva J
+En regimen
+estacionario,
+la potencia
+emisiva de una
+superficie
+gris sera
+mayor, menor o
+igual a la
+radiosidad
+$$J$$
+segun la
+emisividad
+$$\epsilon$$
+.
+
+---
+
+## P14: Respuesta
+Un material
+responde mas
+rapido a los
+cambios si
+tiene mayor
+conductividad
+$$k$$
+y menor calor
+especifico
+$$c_p$$
+.
+
+---
+
+## P15: Cuerpo N
+Cuerpo negro
+ideal:
+$$\epsilon = 1$$
+$$\alpha = 1$$
+$$\rho = 0$$
+$$\tau = 0$$
+.
+
+---
+
+## P16: Radiosidad
+La radiosidad
+$$J$$
+es la energia
+termica total
+radiada por
+una superficie
+por unidad de
+tiempo y area.
+
+---
+
+## P17: Conduccion
+En conduccion,
+el flujo de
+calor es
+proporcional
+al gradiente
+de
+temperatura.
+
+---
+
+## P18: Perfil k
+[Descripcion
+de la imagen:
+Grafico de
+perfil de T en
+estado est.
+Pared plana con
+capas A (izq)
+y B (der) de
+igual espesor.
+Pendiente en A
+es muy alta,
+en B es suave.]
+De un perfil
+de temperatura
+compuesto por
+capas A y B
+en serie de
+igual espesor.
+La caida de T
+en A es muy
+pronunciada,
+en B es suave.
+Se deduce:
+$$k_A < k_B$$
+y
+$$R_A > R_B$$
+.
+
+---
+
+## P19: Aislamiento
+En una pared
+plana, cuanto
+mayor sea el
+espesor
+$$e$$
+del aislante
+menor sera el
+flujo de
+calor.
+
+---
+
+## P20: Emision N
+Superficie
+negra a
+$$127$$
+$$\text{degC}$$
+en estado
+estacionario,
+su flujo de
+emision es:
+$$1451$$
+$$\text{W/m}^2$$
+.
+
+---
+
+## P21: Recinto C
+[Descripcion
+de la imagen:
+Cilindro
+cerrado. La
+superficie
+lateral es 1,
+y las tapas
+planas son
+2 y 3.]
+Recinto
+cilindrico de
+bases 2 y 3 y
+lateral 1.
+Figura: cilindro
+cerrado con
+lateral 1 y
+tapas 2 y 3.
+Se verifica:
+$$F_{12} + F_{13} = 1$$
+$$F_{21} + F_{23} = 1$$
+y
+$$F_{12} = F_{13} = \frac{1}{2}$$
+.
+
+---
+
+## P22: Unidad R
+La unidad de
+la resistencia
+termica a la
+transmision
+es:
+$$\text{K/W}$$
+.
+
+---
+
+## P23: Coef global
+El coeficiente
+global de una
+tuberia
+aislada:
+depende de si
+se toma de
+referencia el
+area interna
+o externa.
+
+---
+
+## P24: Contacto
+La resistencia
+termica de
+contacto
+provoca una
+caida de
+temperatura
+en la interfaz
+en contacto.
+
+---
+
+## P25: Constante t
+En transitorio
+de parametros
+concentrados,
+una constante
+de tiempo
+$$\tau$$
+mayor indica:
+variacion de
+temperatura
+mas lenta.
+
+---
+
+## P26: Tabiques
+[Descripcion
+de la imagen:
+Dos tabiques
+de igual
+espesor en
+paralelo con
+flujo de calor
+desde el
+interior a
+$$20$$
+$$\text{degC}$$
+hacia el
+exterior a
+$$0$$
+$$\text{degC}$$
+.]
+Tabiques con
+$$k_A > k_B$$
+y mismo
+espesor:
+$$q_A > q_B$$
+y
+$$T_{A,\text{int}} < T_{B,\text{int}}$$
+.
+
+---
+
+## P27: Serie e k
+[Descripcion
+de la imagen:
+Pared de dos
+capas en serie.
+Capa 1 tiene
+$$e_1$$
+y
+$$k_1$$
+. Capa 2 tiene
+$$e_2 = 2e_1$$
+y
+$$k_2 = 2k_1$$
+. Flujo
+$$q$$
+las atraviesa.
+]
+Pared compuesta
+en serie con
+$$e_2 = 2e_1$$
+y
+$$k_2 = 2k_1$$
+: los flujos
+verifican:
+$$q_1 = q_2$$
+.
+
+---
+
+## P28: Pared cort
+Pared plana
+con
+$$R = 2$$
+$$\text{K/W}$$
+cortada a la
+mitad en la
+direccion del
+flujo: cada
+parte tiene:
+$$4$$
+$$\text{K/W}$$
+.
+
+---
+
+## P29: Constante
+Modelo de cap.
+global con
+$$\tau = R_t C_t$$
+:
+$$R_t$$
+es la
+resistencia a
+la conveccion
+del fluido.
+
+---
+
+## P30: Coef comb
+Coeficiente
+combinado de
+calor es:
+$$h_{\text{comb}} = h_{\text{conv}} + h_{\text{rad}}$$
+.
+
+---
+
+## P31: Emisiva Eb
+La potencia
+emisiva
+$$E_b = \sigma T^4$$
+es el flujo
+emitido por
+unidad de area
+de superficie
+negra a la
+temperatura
+$$T$$
+.
+
+---
+
+## P32: Aditividad
+[Descripcion
+de la imagen:
+Dos placas
+perpendiculares
+formando una L.
+Vertical es 1.
+Horizontal es
+superficie 2,
+dividida en
+segmento a
+(cercano a la
+esquina) y b
+(lejano).]
+Superficie 2
+dividida en
+$$a$$
+y
+$$b$$
+perpendiculares.
+Figura: L con
+vertical 1 y
+horizontal 2.
+La 2 se divide
+en segmentos
+a (cerca) y
+b (lejos).
+Se cumple:
+$$F_{12} = F_{1a} + F_{1b}$$
+y
+$$F_{21} = F_{a1} + F_{b1}$$
+.
+
+---
+
+## P33: Serie q 3
+[Descripcion
+de la imagen:
+Corte de una
+pared con tres
+bloques en
+serie de igual
+espesor
+$$e$$
+.
+Materiales
+A, B y C
+con
+$$k_A > k_B > k_C$$
+. Flujo
+$$q$$
+la atraviesa.
+]
+Pared en serie
+de materials
+con
+$$k_A > k_B > k_C$$
+y mismo
+espesor:
+$$q_A = q_B = q_C$$
+.
+
+---
+
+## P34: Espesor c
+Para aislar
+conducto
+cilindrico de
+radio
+$$R$$
+, el espesor
+$$e$$
+debe cumplir:
+$$R + e > r_c$$
+donde
+$$r_c$$
+es el radio
+critico.
+
+---
+
+## P35: Flujo alet
+Flujo a lo
+largo de una
+aleta no
+aislada:
+disminuye con
+la distancia
+a la base.
+
+---
+
+## P36: Planos p
+[Descripcion
+de la imagen:
+Dos superficies
+paralelas.
+Superior es
+placa 1.
+Inferior se
+divide en
+mitades
+identicas
+a y b.]
+Placa superior
+1 enfrentada a
+inferiores
+$$a$$
+y
+$$b$$
+simetricas.
+Figura: placa
+superior 1
+enfrentada a
+dos placas
+inferiores
+a y b iguales
+y adosadas.
+Se verifica:
+$$F_{12} = F_{1a} + F_{1b}$$
+y
+$$F_{1a} = F_{1b} = \frac{1}{2}$$
+.
+
+---
+
+## P37: Termopar
+Termopar
+esferico con
+$$k = 20$$
+$$\text{W/(m}\cdot\text{K)}$$
+y
+$$h = 40$$
+$$\text{W/(m}^2\cdot\text{K)}$$
+: valido para
+cap. global
+si el radio
+$$R$$
+cumple:
+$$R < 0,10$$
+$$\text{m}$$
+.
+
+---
+
+## P38: Corriente
+Analogia
+electrica en
+cuerpos
+negros: la
+corriente
+$$q_{ij}$$
+representa el
+flujo neto de
+calor por
+radiacion
+entre las
+superficies.
+
+---
+
+## P39: Pared A B
+Paredes con
+$$k_A = 2 k_B$$
+y
+$$e_A = \frac{e_B}{2}$$
+: el flujo en
+$$A$$
+es cuatro
+veces mayor
+que en
+$$B$$
+.
+
+---
+
+## P40: Tubo 3mm
+Tubo de
+$$3$$
+$$\text{mm}$$
+de radio con
+$$k = 0,08$$
+$$\text{W/(m}\cdot\text{K)}$$
+y
+$$h = 8$$
+$$\text{W/(m}^2\cdot\text{K)}$$
+: mayor
+aislamiento
+con espesor:
+$$e = 7$$
+$$\text{mm}$$
+.
