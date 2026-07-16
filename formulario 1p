@@ -1,0 +1,72 @@
+# Formulario
+Primer Parcial
+
+## 1. Conceptos
+y Gases
+Ideales
+
+Ecuación de
+estado:
+$$pv = \frac{R}{M}T$$
+
+Variación de
+entropía:
+$$s_2 - s_1 = s^\circ(T_2) - s^\circ(T_1) - \frac{R}{M}\ln\left(\frac{p_2}{p_1}\right)$$
+
+Proceso
+isoentrópico:
+$$s_2 - s_1 = 0$$
+
+Balance de
+entropía:
+$$\dot{\sigma} = \sum \dot{m}_s s_s - \sum \dot{m}_e s_e - \sum \frac{\dot{Q}_j}{T_j}$$
+
+## 2. Ciclos de
+Gas (Brayton)
+
+Potencia y
+Trabajo:
+
+Compresor:
+$$w_c = h_2 - h_1$$
+
+Turbina:
+$$w_t = h_3 - h_4$$
+
+Trabajo Neto:
+$$\dot{W}_{net} = \dot{W}_t - \dot{W}_c$$
+
+Rendimientos
+isoentrópicos:
+
+Compresor:
+$$\eta_c = \frac{h_{2s}-h_1}{h_2-h_1}$$
+
+Turbina:
+$$\eta_t = \frac{h_3-h_4}{h_3-h_{4s}}$$
+
+Calor
+absorbido:
+$$\dot{Q}_{in} = \dot{m}(h_{sal}-h_{ent})$$
+
+## 3. Ciclos de
+Vapor (Rankine)
+
+Trabajo de
+bomba:
+$$w_b \approx v_f(p_{out}-p_{in})$$
+
+Rendimiento
+térmico:
+$$\eta = \frac{w_{neto}}{q_{in}}$$
+
+Calentador
+abierto
+(mezcla):
+
+Fracción
+extraída:
+$$y = \frac{\dot{m}_{extr}}{\dot{m}_{tot}}$$
+
+Balance:
+$$y h_{extr} + (1-y) h_{bomb} = h_{salida}$$
