@@ -1,0 +1,872 @@
+# Teoria Calor Convocatorias
+
+* [P1: Ciclo C [1P]](#p1-ciclo-c-1p)
+* [P2: Estado [1P]](#p2-estado-1p)
+* [P3: Generacion [1P]](#p3-generacion-1p)
+* [P4: Estrang [1P]](#p4-estrang-1p)
+* [P5: Compresor [1P]](#p5-compresor-1p)
+* [P6: Rankine reg [1P]](#p6-rankine-reg-1p)
+* [P7: COP BC [1P]](#p7-cop-bc-1p)
+* [P8: Subenfriar [1P]](#p8-subenfriar-1p)
+* [P9: Ecuacion dh [1P]](#p9-ecuacion-dh-1p)
+* [P10: Turbina [1P]](#p10-turbina-1p)
+* [P11: Gas DS [1P]](#p11-gas-ds-1p)
+* [P12: EER W [1P]](#p12-eer-w-1p)
+* [P13: Proceso DS [1P]](#p13-proceso-ds-1p)
+* [P14: Rankine p [1P]](#p14-rankine-p-1p)
+* [P15: Temp evap [1P]](#p15-temp-evap-1p)
+* [P16: Comp. w [1P]](#p16-comp-w-1p)
+* [P17: Bomba C [1P]](#p17-bomba-c-1p)
+* [P18: Ciclo pot [1P]](#p18-ciclo-pot-1p)
+* [P19: Ciclo DS [1P]](#p19-ciclo-ds-1p)
+* [P20: Cogenerac [1P]](#p20-cogenerac-1p)
+* [P21: Diagrama [1P]](#p21-diagrama-1p)
+* [P22: Ecuacion U [1P]](#p22-ecuacion-u-1p)
+* [P23: Diagramas [1P]](#p23-diagramas-1p)
+* [P24: Balance Q [1P]](#p24-balance-q-1p)
+* [P25: Entropia [1P]](#p25-entropia-1p)
+* [P26: Tabiques [2P]](#p26-tabiques-2p)
+* [P27: Serie e k [2P]](#p27-serie-e-k-2p)
+* [P28: Pared R [2P]](#p28-pared-r-2p)
+* [P29: Emisividad [2P]](#p29-emisividad-2p)
+* [P30: Pantalla [2P]](#p30-pantalla-2p)
+* [P31: F. forma [2P]](#p31-f-forma-2p)
+* [P32: Aditividad [2P]](#p32-aditividad-2p)
+* [P33: Rerradiant [2P]](#p33-rerradiant-2p)
+* [P34: Constante [2P]](#p34-constante-2p)
+* [P35: Prop. rad [2P]](#p35-prop-rad-2p)
+* [P36: Aleta L [2P]](#p36-aleta-l-2p)
+* [P37: Coef comb [2P]](#p37-coef-comb-2p)
+* [P38: Contacto R [2P]](#p38-contacto-r-2p)
+* [P39: Cap. glob [2P]](#p39-cap-glob-2p)
+* [P40: Solidos [2P]](#p40-solidos-2p)
+* [P41: Termopar [2P]](#p41-termopar-2p)
+* [P42: Corriente [2P]](#p42-corriente-2p)
+* [P43: Ciclos pot 3 [1P]](#p43-ciclos-pot-3-1p)
+* [P44: Evaporador [1P]](#p44-evaporador-1p)
+* [P45: Recalentar [1P]](#p45-recalentar-1p)
+* [P46: DS menor [1P]](#p46-ds-menor-1p)
+* [P47: Pared cort [2P]](#p47-pared-cort-2p)
+* [P48: Emisiva Eb [2P]](#p48-emisiva-eb-2p)
+* [P49: Serie q 3 [2P]](#p49-serie-q-3-2p)
+* [P50: Espesor c [2P]](#p50-espesor-c-2p)
+* [P51: Flujo alet [2P]](#p51-flujo-alet-2p)
+* [P52: Planos p [2P]](#p52-planos-p-2p)
+* [P53: Pared A B [2P]](#p53-pared-a-b-2p)
+* [P54: Tubo 3mm [2P]](#p54-tubo-3mm-2p)
+
+---
+
+## P1: Ciclo C [1P]
+Ciclos potencia
+$$A$$
+,
+$$B$$
+y
+$$C$$
+en misma escala
+en
+$$T-s$$
+(el
+$$C$$
+con menor
+rango de
+temperaturas):
+el de menor
+rendimiento es:
+el ciclo C.
+
+---
+
+## P2: Estado [1P]
+Sustancia pura,
+simple y
+compresible en
+mezcla
+líquido-vapor:
+definida por la
+presión
+$$p$$
+y la entropía
+específica
+$$s$$
+.
+
+---
+
+## P3: Generacion [1P]
+Proceso rev.
+$$A$$
+e irrev.
+$$B$$
+entre mismos
+estados:
+$$\sigma_A<\sigma_B$$
+(con rev:
+$$\sigma_A=0$$
+, e irrev:
+$$\sigma_B>0$$
+).
+
+---
+
+## P4: Estrang [1P]
+Estrangulacion
+ideal es un
+proceso irrev.
+donde baja la
+presion sin
+transferencia
+de energia.
+
+---
+
+## P5: Compresor [1P]
+Compresion real
+adiabatica vs
+reversible
+isoentropica.
+Propiedades
+reales:
+$$h_{\text{real}}>h_s$$
+y
+$$s_{\text{real}}>s_1$$
+(ambas son
+mayores).
+
+---
+
+## P6: Rankine reg [1P]
+Calentador
+regenerativo
+en Rankine:
+disminuye el
+trabajo neto
+$$W_{\text{neto}}$$
+y el calor en
+caldera
+$$Q_{\text{caldera}}$$
+.
+
+---
+
+## P7: COP BC [1P]
+COP de bomba
+de calor:
+cociente entre
+calor en
+condensador
+$$Q_{\text{cond}}$$
+y trabajo del
+compresor
+$$W_{\text{comp}}$$
+.
+
+---
+
+## P8: Subenfriar [1P]
+Subenfriamiento
+es la resta:
+$$T_{\text{sat}}(p_{\text{cond}})-T_{\text{sal}}$$
+donde
+$$T_{\text{sal}}$$
+es a la salida
+del
+condensador.
+
+---
+
+## P9: Ecuacion dh [1P]
+Ecuacion
+$$dh = Tds + vdp$$
+valida para:
+cualquier tipo
+de proceso.
+
+---
+
+## P10: Turbina [1P]
+Entropia en
+turbina rev.
+no adiabatica
+que cede calor
+al ambiente:
+necesariamente
+negativa.
+
+---
+
+## P11: Gas DS [1P]
+Gas ideal en
+proceso
+isotermico
+$$T = \text{cte}$$
+con
+$$\Delta p > 0$$
+: la entropia
+verifica:
+$$\Delta s < 0$$
+.
+
+---
+
+## P12: EER W [1P]
+Refrigeracion:
+potencia
+frigorifica:
+$$3000$$
+$$\text{W}$$
+y
+$$\text{EER} = 3$$
+. Consumo
+electrico es:
+$$1000$$
+$$\text{W}$$
+.
+
+---
+
+## P13: Proceso DS [1P]
+Transformacion
+real entre
+1 y 2: la
+generacion
+$$\sigma$$
+es mayor en un
+proceso con
+cesion de
+calor.
+
+---
+
+## P14: Rankine p [1P]
+Intercambios
+de calor en
+Rankine ideal:
+tienen lugar
+a presion
+$$p = \text{cte}$$
+.
+
+---
+
+## P15: Temp evap [1P]
+Temperatura de
+refrigerante
+en evaporador:
+menor que la
+del recinto
+a enfriar.
+
+---
+
+## P16: Comp. w [1P]
+Trabajo
+especifico en
+compresor
+reversible y
+adiabatico:
+$$w = h_2 - h_1$$
+,
+$$w = \int vdp$$
+y
+$$w = v(p_2-p_1)$$
+(todas son
+correctas).
+
+---
+
+## P17: Bomba C [1P]
+Calefaccion
+por bomba de
+calor: cede
+calor al
+recinto en el
+condensador.
+
+---
+
+## P18: Ciclo pot [1P]
+Ciclo entre:
+$$T_F = 27$$
+$$\text{degC}$$
+y
+$$T_C = 327$$
+$$\text{degC}$$
+con
+$$\eta = 50$$
+$$\%$$
+es un ciclo:
+irreversible.
+
+---
+
+## P19: Ciclo DS [1P]
+Variacion de
+entropia en
+cualquier
+proceso
+ciclico:
+es nula
+$$\Delta s = 0$$
+(por ser
+funcion de
+estado).
+
+---
+
+## P20: Cogenerac [1P]
+Rendimiento de
+cogeneracion:
+calor de
+proceso mas
+trabajo neto,
+dividido por
+calor
+absorbido.
+
+---
+
+## P21: Diagrama [1P]
+[Descripcion
+de la imagen:
+Cuatro graficos
+comparativos:
+T-s e h-s con
+areas en eje
+vertical, y
+dos p-v (uno
+con area en
+eje vertical y
+otro en eje
+horizontal).]
+En balance:
+el area bajo
+la curva de un
+proceso es:
+el calor
+intercambiado.
+
+---
+
+## P22: Ecuacion U [1P]
+Ecuacion
+$$dU = m c_v dT$$
+es valida:
+para gas ideal
+y cualquier
+proceso.
+
+---
+
+## P23: Diagramas [1P]
+Bomba ideal,
+fluid
+incompresible:
+diagramas
+$$p-v$$
+,
+$$T-s$$
+y
+$$h-s$$
+son todos
+correctos.
+
+---
+
+## P24: Balance Q [1P]
+En balance de
+potencia: el
+termino
+$$\dot{Q}_{\text{vc}}$$
+es el calor
+neto con los
+alrededores.
+
+---
+
+## P25: Entropia [1P]
+Transformacion
+real e irrev:
+la entropia
+puede
+disminuir si
+hay cesion de
+calor.
+
+---
+
+## P26: Tabiques [2P]
+[Descripcion
+de la imagen:
+Dos tabiques
+de igual
+espesor en
+paralelo con
+flujo de calor
+desde el
+interior a
+$$20$$
+$$\text{degC}$$
+hacia el
+exterior a
+$$0$$
+$$\text{degC}$$
+.]
+Tabiques con
+$$k_A > k_B$$
+y mismo
+espesor:
+$$q_A > q_B$$
+y
+$$T_{A,\text{int}} < T_{B,\text{int}}$$
+.
+
+---
+
+## P27: Serie e k [2P]
+[Descripcion
+de la imagen:
+Pared de dos
+capas en serie.
+Capa 1 tiene
+$$e_1$$
+y
+$$k_1$$
+. Capa 2 tiene
+$$e_2 = 2e_1$$
+y
+$$k_2 = 2k_1$$
+. Flujo
+$$q$$
+las atraviesa.
+]
+Pared compuesta
+en serie con
+$$e_2 = 2e_1$$
+y
+$$k_2 = 2k_1$$
+: los flujos
+verifican:
+$$q_1 = q_2$$
+.
+
+---
+
+## P28: Pared R [2P]
+Resistencia
+$$R$$
+de una pared
+plana se
+reduce a la
+mitad si:
+el espesor
+$$e$$
+se reduce a
+la mitad.
+
+---
+
+## P29: Emisividad [2P]
+Emisividad
+$$\epsilon$$
+es la
+relacion entre
+flujo emitido
+y el de un
+cuerpo negro
+a la misma
+temperatura.
+
+---
+
+## P30: Pantalla [2P]
+Para reducir
+flujo radiante
+conviene usar
+pantalla con:
+alta
+reflectividad
+$$\rho$$
+.
+
+---
+
+## P31: F. forma [2P]
+Recinto cerrado
+donde disco 1
+es rodeado por
+superficie 3:
+$$F_{13} = 1$$
+.
+
+---
+
+## P32: Aditividad [2P]
+[Descripcion
+de la imagen:
+Dos placas
+perpendiculares
+formando una L.
+Vertical es 1.
+Horizontal es
+superficie 2,
+dividida en
+segmento a
+(cercano a la
+esquina) y b
+(lejano).]
+Superficie 2
+dividida en
+$$a$$
+y
+$$b$$
+: se cumple
+$$F_{12} = F_{1a} + F_{1b}$$
+y
+$$F_{21} = F_{a1} + F_{b1}$$
+.
+
+---
+
+## P33: Rerradiant [2P]
+Superficie
+rerradiante se
+modela con:
+$$q = 0$$
+y
+$$J = E_b$$
+.
+
+---
+
+## P34: Constante [2P]
+Modelo de cap.
+global con
+$$\tau = R_t C_t$$
+:
+$$R_t$$
+es la
+resistencia a
+la conveccion
+del fluido.
+
+---
+
+## P35: Prop. rad [2P]
+Propiedades en
+superficie
+gris:
+$$\alpha + \rho + \tau = 1$$
+y
+$$\epsilon \le 1$$
+para reales y
+negras.
+
+---
+
+## P36: Aleta L [2P]
+Al duplicar la
+longitud de
+aleta recta:
+el rendimiento
+$$\eta$$
+disminuye y
+el flujo
+$$q$$
+aumenta.
+
+---
+
+## P37: Coef comb [2P]
+Coeficiente
+combinado de
+calor es:
+$$h_{\text{comb}} = h_{\text{conv}} + h_{\text{rad}}$$
+.
+
+---
+
+## P38: Contacto R [2P]
+Resistencia de
+contacto
+provoca:
+caida de
+temperatura
+en interfaz y
+menor flujo
+de calor.
+
+---
+
+## P39: Cap. glob [2P]
+El metodo de
+capacidad
+global es
+valido si la
+resistencia a
+la conduccion
+es mucho
+menor que a la
+conveccion.
+
+---
+
+## P40: Solidos [2P]
+Mecanismo de
+calor que
+predomina en
+solidos es:
+conduccion.
+
+---
+
+## P41: Termopar [2P]
+Termopar
+esferico con
+$$k = 20$$
+$$\text{W/(m}\cdot\text{K)}$$
+y
+$$h = 40$$
+$$\text{W/(m}^2\cdot\text{K)}$$
+: valido para
+cap. global
+si el radio
+$$R$$
+cumple:
+$$R < 0,10$$
+$$\text{m}$$
+.
+
+---
+
+## P42: Corriente [2P]
+Analogia
+electrica en
+cuerpos
+negros: la
+corriente
+$$q_{ij}$$
+representa el
+flujo neto de
+calor por
+radiacion
+entre las
+superficies.
+
+---
+
+## P43: Ciclos pot 3 [1P]
+[Descripcion
+de la imagen:
+Dos diagramas
+T-s a misma
+escala.
+A es cuadrado.
+B comparte T
+max y T min
+con A, pero
+es mucho mas
+ancho en s.]
+De diagramas T-s
+de dos ciclos
+reversibles A y
+B a misma
+escala se
+deduce:
+$$Q_{\text{abs, A}} < Q_{\text{abs, B}}$$
+y
+$$\eta_A > \eta_B$$
+.
+
+---
+
+## P44: Evaporador [1P]
+Acondicionador
+de aire: el
+evaporador se
+situa en la
+habitacion
+para el
+sistema de
+refrigeracion,
+y en la calle
+para la bomba
+de calor.
+
+---
+
+## P45: Recalentar [1P]
+En ciclo de
+refrigeracion,
+el
+sobrecalentar
+consiste en:
+aumentar la
+temperatura a
+la entrada del
+compresor para
+obtener vapor
+sobrecalentado
+.
+
+---
+
+## P46: DS menor [1P]
+La entropia de
+un sistema
+puede
+disminuir en
+un proceso
+donde el
+sistema ceda
+calor al
+ambiente.
+
+---
+
+## P47: Pared cort [2P]
+Pared plana
+con
+$$R = 2$$
+$$\text{K/W}$$
+cortada a la
+mitad en la
+direccion del
+flujo: cada
+parte tiene:
+$$4$$
+$$\text{K/W}$$
+.
+
+---
+
+## P48: Emisiva Eb [2P]
+La potencia
+emisiva
+$$E_b = \sigma T^4$$
+es el flujo
+emitido por
+unidad de area
+de superficie
+negra a la
+temperatura
+$$T$$
+.
+
+---
+
+## P49: Serie q 3 [2P]
+[Descripcion
+de la imagen:
+Corte de una
+pared con tres
+bloques en
+serie de igual
+espesor
+$$e$$
+.
+Materiales
+A, B y C
+con
+$$k_A > k_B > k_C$$
+. Flujo
+$$q$$
+la atraviesa.
+]
+Pared en serie
+de materials
+con
+$$k_A > k_B > k_C$$
+y mismo
+espesor:
+$$q_A = q_B = q_C$$
+.
+
+---
+
+## P50: Espesor c [2P]
+Para aislar
+conducto
+cilindrico de
+radio
+$$R$$
+, el espesor
+$$e$$
+debe cumplir:
+$$R + e > r_c$$
+donde
+$$r_c$$
+es el radio
+critico.
+
+---
+
+## P51: Flujo alet [2P]
+Flujo a lo
+largo de una
+aleta no
+aislada:
+disminuye con
+la distancia
+a la base.
+
+---
+
+## P52: Planos p [2P]
+[Descripcion
+de la imagen:
+Dos superficies
+paralelas.
+Superior es
+placa 1.
+Inferior se
+divide en
+mitades
+identicas
+a y b.]
+Placa superior
+1 enfrentada a
+inferiores
+$$a$$
+y
+$$b$$
+simetricas:
+$$F_{12} = F_{1a} + F_{1b}$$
+y
+$$F_{1a} = F_{1b} = \frac{1}{2}$$
+.
+
+---
+
+## P53: Pared A B [2P]
+Paredes con
+$$k_A = 2 k_B$$
+y
+$$e_A = \frac{e_B}{2}$$
+: el flujo en
+$$A$$
+es cuatro
+veces mayor
+que en
+$$B$$
+.
+
+---
+
+## P54: Tubo 3mm [2P]
+Tubo de
+$$3$$
+$$\text{mm}$$
+de radio con
+$$k = 0,08$$
+$$\text{W/(m}\cdot\text{K)}$$
+y
+$$h = 8$$
+$$\text{W/(m}^2\cdot\text{K)}$$
+: mayor
+aislamiento
+con espesor:
+$$e = 7$$
+$$\text{mm}$$
+.
