@@ -1,0 +1,665 @@
+# Teoria Calor 1P
+
+Parcial: 1P
+
+* [P1: Estado](#p1-estado)
+* [P2: Ciclos](#p2-ciclos)
+* [P3: Refrig](#p3-refrig)
+* [P4: Entropía](#p4-entropía)
+* [P5: COP BC](#p5-cop-bc)
+* [P6: Turbina](#p6-turbina)
+* [P7: Estrang](#p7-estrang)
+* [P8: Tobera](#p8-tobera)
+* [P9: Combinad](#p9-combinad)
+* [P10: Rankine](#p10-rankine)
+* [P11: Mezc. T](#p11-mezc-t)
+* [P12: Tds](#p12-tds)
+* [P13: Trabajo](#p13-trabajo)
+* [P14: Tobera V](#p14-tobera-v)
+* [P15: Rank. P](#p15-rank-p)
+* [P16: Pot. ref](#p16-pot-ref)
+* [P17: Turb real](#p17-turb-real)
+* [P18: Rev. DS](#p18-rev-ds)
+* [P19: W / s](#p19-w--s)
+* [P20: Comp T1](#p20-comp-t1)
+* [P21: Regen 1](#p21-regen-1)
+* [P22: Rank comp](#p22-rank-comp)
+* [P23: open W](#p23-open-w)
+* [P24: Generac](#p24-generac)
+* [P25: s2 - s1](#p25-s2---s1)
+* [P26: Rank rec](#p26-rank-rec)
+* [P27: Regen 2](#p27-regen-2)
+* [P28: EER](#p28-eer)
+* [P29: Temp evap](#p29-temp-evap)
+* [P30: Función](#p30-función)
+* [P31: Líq sub](#p31-líq-sub)
+* [P32: Ciclo T-s](#p32-ciclo-t-s)
+* [P33: Ec tobera](#p33-ec-tobera)
+* [P34: Mezcla v](#p34-mezcla-v)
+* [P35: Función 2](#p35-función-2)
+* [P36: Comp rend](#p36-comp-rend)
+* [P37: Condensad](#p37-condensad)
+* [P38: Estrang p](#p38-estrang-p)
+* [P39: Isotermo](#p39-isotermo)
+* [P40: Caldera p](#p40-caldera-p)
+
+---
+
+## P1: Estado
+Sustancia pura,
+simple y
+compresible en
+mezcla
+líquido-vapor:
+definida por la
+presión
+$$p$$
+y la entropía
+específica
+$$s$$
+.
+
+---
+
+## P2: Ciclos
+[Descripcion
+de la imagen:
+Dos diagramas
+T-s paralelos.
+Ambos muestran
+ciclos de
+potencia rev.
+rectangulares
+con mismos
+limites de T
+y misma
+anchura de s.
+Sentido
+horario.]
+Ciclos potencia
+reversibles
+$$A$$
+y
+$$B$$
+a la misma
+escala verifican
+:
+$$Q_{A}^{\text{neto}} = Q_{B}^{\text{neto}}$$
+y
+$$\eta_{A} = \eta_{B}$$
+.
+
+---
+
+## P3: Refrig
+[Descripcion
+de la imagen:
+Dos diagramas
+T-s paralelos.
+A y B son
+rectangulos
+antihorarios.
+Comparten la
+temperatura
+minima y
+anchura de s.
+B alcanza
+temperatura
+maxima mayor
+que A.]
+Ciclos rev. de
+refrigeración a
+misma escala se
+deduce:
+potencia de
+refrigeración:
+$$\dot{Q}_{\text{ref, A}} < \dot{Q}_{\text{ref, B}}$$
+(menor en A
+que en B).
+
+---
+
+## P4: Entropía
+Proceso rev.
+$$A$$
+e irrev.
+$$B$$
+entre mismos
+estados 1 y 2:
+$$(\Delta s_{12})_{A} = (\Delta s_{12})_{B}$$
+(la entropía
+es función de
+estado).
+
+---
+
+## P5: COP BC
+Bomba de calor
+por compresión:
+el
+$$\text{COP}$$
+es el cociente
+entre calor de
+condensador
+$$Q_{\text{cond}}$$
+y trabajo del
+compresor
+$$W_{\text{comp}}$$
+.
+
+---
+
+## P6: Turbina
+Variación de
+entropía en
+turbina rev. no
+adiabática que
+cede calor:
+es negativa
+$$\Delta s < 0$$
+.
+
+---
+
+## P7: Estrang
+Estrangulación
+ideal:
+la entalpía es
+constante
+$$h = \text{cte}$$
+y la entropía
+aumenta
+$$\Delta s > 0$$
+.
+
+---
+
+## P8: Tobera
+Tobera
+adiabática:
+velocidad real
+de salida es
+menor que la
+isoentrópica
+$$c_{\text{real}} < c_s$$
+para la misma
+presión de
+salida.
+
+---
+
+## P9: Combinad
+Ciclo combinado
+consiste en
+aprovechar el
+calor cedido en
+la turbina de
+gas para
+calentar el
+agua de un
+ciclo de vapor.
+
+---
+
+## P10: Rankine
+Recalentamiento
+en Rankine:
+aumenta el
+rendimiento
+$$\eta$$
+y el título de
+vapor
+$$x$$
+a la salida de
+la turbina.
+
+---
+
+## P11: Mezc. T
+Sustancia pura,
+simple y
+compresible en
+mezcla
+líquido-vapor:
+definida por la
+temperatura
+$$T$$
+y la entalpía
+específica
+$$h$$
+.
+
+---
+
+## P12: Tds
+La ecuación
+$$Tds = dh - vdp$$
+es válida para
+cualquier
+sustancia y
+cualquier tipo
+de proceso.
+
+---
+
+## P13: Trabajo
+Compresión rev.
+y adiabática
+entre
+$$p_1$$
+y
+$$p_2$$
+:
+el trabajo es
+mayor en la
+compresión del
+vapor que en la
+del líquido.
+
+---
+
+## P14: Tobera V
+En una tobera
+adiabática:
+la velocidad
+aumenta.
+
+---
+
+## P15: Rank. P
+Rankine con
+menor presión
+en condensador:
+aumenta el
+rendimiento
+$$\eta$$
+y disminuye
+el título
+$$x$$
+a la entrada.
+
+---
+
+## P16: Pot. ref
+Potencia de
+refrigeración:
+flujo de calor
+absorbido del
+recinto a
+enfriar.
+
+---
+
+## P17: Turb real
+Entropía en una
+turbina real
+irreversible y
+no adiabática:
+puede ser
+positiva o
+negativa.
+
+---
+
+## P18: Rev. DS
+Transformación
+ideal rev.
+entre estados
+1 y 2:
+la entropía
+puede aumentar,
+disminuir o
+permanecer
+constante.
+
+---
+
+## P19: W / s
+Trabajo real
+comparado con
+isoentrópico.
+Turbina:
+$$W_{\text{real}} < W_s$$
+(menor real).
+Compresor:
+$$W_{\text{real}} > W_s$$
+(mayor real,
+en valor
+absoluto).
+
+---
+
+## P20: Comp T1
+El trabajo
+isoentrópico
+de compresión
+entre presiones
+dadas es
+mayor cuanto
+mayor es la
+temperatura de
+entrada
+$$T_1$$
+.
+
+---
+
+## P21: Regen 1
+Calentador
+regenerativo
+en Rankine
+consigue:
+aumento de la
+temperatura
+del agua a la
+entrada de la
+caldera.
+
+---
+
+## P22: Rank comp
+Estado en la
+compresión del
+ciclo Rankine:
+líquido
+saturado o
+subenfriado.
+
+---
+
+## P23: open W
+[Descripcion
+de la imagen:
+Cuatro graficos
+comparativos:
+T-s e h-s con
+areas en eje
+vertical, y
+dos p-v (uno
+con area en
+eje vertical y
+otro en eje
+horizontal).]
+El trabajo
+específico
+$$w_{12}$$
+en proceso
+reversible de
+sist. abierto
+es el área:
+$$A_3$$
+proyectada
+sobre eje de
+ordenadas de
+diagrama
+$$p-v$$
+.
+
+---
+
+## P24: Generac
+Generación de
+entropía
+$$\sigma$$
+entre mismos
+estados 1 y 2:
+$$\sigma_A < \sigma_B$$
+(con rev A:
+$$\sigma_A = 0$$
+e irrev B:
+$$\sigma_B > 0$$
+).
+
+---
+
+## P25: s2 - s1
+Diferencia
+$$s_2^0 - s_1^0$$
+en tablas de
+gas ideal es
+el aumento de
+entropía
+$$\Delta s$$
+sufriéndose en
+un proceso
+isóbaro entre
+1 y 2.
+
+---
+
+## P26: Rank rec
+Recalentamiento
+en Rankine
+consigue:
+aumento de
+calor en
+caldera
+$$Q_{\text{caldera}}$$
+, de
+rendimiento
+$$\eta_{\text{ciclo}}$$
+y de título
+$$x$$
+a la salida.
+
+---
+
+## P27: Regen 2
+Calentador
+regenerativo
+en Rankine:
+disminuye el
+calor en la
+caldera
+$$Q_{\text{caldera}}$$
+y aumenta el
+rendimiento
+$$\eta_{\text{ciclo}}$$
+sin afectar al
+título
+$$x$$
+a la salida de
+la turbina.
+
+---
+
+## P28: EER
+Eficiencia EER
+(o COP) en
+refrigeración
+aumenta si:
+disminuye la
+presión del
+condensador
+y aumenta la
+presión del
+evaporador.
+
+---
+
+## P29: Temp evap
+Temperatura de
+refrigerante
+en evaporador:
+debe ser
+menor que la
+temperatura
+del recinto
+a enfriar.
+
+---
+
+## P30: Función
+La entropía
+$$S$$
+es una función
+de estado.
+La generación
+de entropía
+$$\sigma$$
+no lo es.
+
+---
+
+## P31: Líq sub
+Volumen de un
+líquido
+subenfriado:
+$$v(T,p) \approx v_f(T)$$
+(aproximado a
+líquido sat.
+a la misma
+temperatura).
+
+---
+
+## P32: Ciclo T-s
+[Descripcion
+de la imagen:
+Tres diagramas
+T-s en misma
+escala.
+A: rectangulo
+alto y
+estrecho.
+B: rectangulo
+igual alto y
+doble ancho.
+C: comparte
+base y ancho
+con B, pero
+con la mitad
+de altura.]
+De los ciclos
+reversibles
+$$A$$
+,
+$$B$$
+y
+$$C$$
+en diagramas
+$$T-s$$
+, el de mayor
+rendimiento
+térmico es:
+el ciclo B.
+
+---
+
+## P33: Ec tobera
+Tobera
+adiabática:
+la variación
+de energía
+cinética
+específica es
+mayor en el
+proceso
+isoentrópico
+que en el real.
+
+---
+
+## P34: Mezcla v
+Sustancia pura,
+simple y
+compresible en
+mezcla
+líquido-vapor:
+definida por la
+temperatura
+$$T$$
+y el volumen
+específico
+$$v$$
+.
+
+---
+
+## P35: Función 2
+Magnitud que es
+función de
+estado:
+la temperatura
+$$T$$
+. El trabajo
+$$W$$
+y el calor
+$$Q$$
+no lo son.
+
+---
+
+## P36: Comp rend
+Rendimiento
+isoentrópico
+de compresor:
+cociente entre
+trabajo rev.
+adiabático
+y trabajo real
+para la misma
+presión de
+salida.
+
+---
+
+## P37: Condensad
+Acondicionador
+de aire:
+el condensador
+se sitúa en
+la habitación
+para la bomba
+de calor, y
+en la calle
+para el
+sistema de
+refrigeración.
+
+---
+
+## P38: Estrang p
+Estrangulación
+ideal produce:
+disminución de
+presión
+$$p$$
+a entalpía
+constante
+$$h$$
+.
+
+---
+
+## P39: Isotermo
+En un proceso
+isotermo
+$$T = \text{cte}$$
+:
+la entropía
+puede aumentar
+$$\Delta S > 0$$
+o disminuir
+$$\Delta S < 0$$
+tanto en
+proceso real
+como reversible
+.
+
+---
+
+## P40: Caldera p
+Aumento de
+presión en
+caldera a
+temperatura de
+salida cte:
+aumenta el
+rendimiento
+$$\eta$$
+y disminuye
+el título
+$$x$$
+a la salida de
+la turbina.
