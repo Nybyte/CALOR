@@ -1,0 +1,81 @@
+# Formulario
+Segundo Parcial
+
+## 1. Conducción
+y Convección
+
+Circuito
+Térmico:
+$$q = \frac{\Delta T}{R_{tot}}$$
+
+Resistencias:
+
+Pared plana:
+$$R_k = \frac{L}{kA}$$
+
+Cilíndrica:
+$$R_k = \frac{\ln(r_2/r_1)}{2\pi kL}$$
+
+Convección:
+$$R_h = \frac{1}{hA}$$
+
+Aletas:
+
+Resistencia
+aleta:
+$$R_{aleta} = \frac{1}{\eta_a h A_{aleta}}$$
+
+Resistencia
+aletas:
+$$R_{N} = \frac{R_{aleta}}{N}$$
+
+Resistencia
+superficie
+libre:
+$$R_{entre} = \frac{1}{h A_{entre}}$$
+
+Resistencia
+exterior
+equivalente:
+$$R_{ext,eq} = \left(\frac{1}{R_N} + \frac{1}{R_{entre}}\right)^{-1}$$
+
+Coeficiente
+global:
+$$U\cdot A = \frac{1}{R_{tot}}$$
+
+## 2. Radiación
+Térmica
+
+Leyes:
+
+Stefan-
+Boltzmann:
+$$E_b = \sigma T^4$$
+
+Factores de
+forma:
+
+Reciprocidad:
+$$A_i F_{ij} = A_j F_{ji}$$
+
+Aditividad:
+$$\sum_j F_{ij} = 1$$
+
+Circuitos:
+
+Resistencia
+superficial:
+$$R_{sup,i} = \frac{1 - \varepsilon_i}{A_i \varepsilon_i}$$
+
+Resistencia
+de forma:
+$$R_{ij} = \frac{1}{A_i F_{ij}}$$
+
+Nudos
+aislados
+(rerradiantes):
+$$q_i = 0$$
+$$J_i = E_{bi}$$
+
+Flujo neto:
+$$q_i = \frac{E_{bi} - J_i}{R_{sup,i}} = \sum_j \frac{J_i - J_j}{R_{ij}}$$
