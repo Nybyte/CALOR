@@ -1,0 +1,1886 @@
+# Problemas y Ejercicios - Primer Parcial
+
+Este documento contendrá una recopilación de problemas y preguntas tipo test (resueltas paso a paso) para la preparación del primer parcial.
+
+## Índice
+1. [Preguntas de Teoría y Conceptos Básicos](#preguntas-de-teoria)
+2. [Problemas de Tablas y Propiedades Termodinámicas](#problemas-propiedades)
+3. [Problemas de la Primera Ley de la Termodinámica](#problemas-primera-ley)
+4. [Problemas de la Segunda Ley de la Termodinámica](#problemas-segunda-ley)
+
+---
+
+<a name="preguntas-de-teoria"></a>
+## 1. Preguntas de Teoría y Conceptos Básicos
+
+*(Los problemas se añadirán aquí)*
+
+---
+
+<a name="problemas-propiedades"></a>
+## 2. Problemas de Tablas y Propiedades Termodinámicas
+
+*(Los problemas se añadirán aquí)*
+
+---
+
+<a name="problemas-primera-ley"></a>
+## 3. Problemas de la Primera Ley de la Termodinámica
+
+### Problema 1
+
+Sistema de
+compresión y
+enfriamiento.
+
+Datos y
+suposiciones:
+
+El aire es
+gas ideal.
+
+$$
+\dot{V}_1 = 26,91
+$$
+$$
+\text{m}^3/\text{min}
+$$
+$$
+p_1 = 96
+$$
+$$
+\text{kPa}
+$$
+$$
+T_1 = 300
+$$
+$$
+\text{K}
+$$
+$$
+p_2 = 230
+$$
+$$
+\text{kPa}
+$$
+$$
+T_2 = 400
+$$
+$$
+\text{K}
+$$
+$$
+p_3 = 230
+$$
+$$
+\text{kPa}
+$$
+$$
+T_3 = 350
+$$
+$$
+\text{K}
+$$
+
+Agua de
+refrigeración:
+
+$$
+p_4 = 100
+$$
+$$
+\text{kPa}
+$$
+$$
+T_4 = 25
+$$
+$$
+^{\circ}\text{C}
+$$
+$$
+p_5 = 100
+$$
+$$
+\text{kPa}
+$$
+$$
+T_5 = 40
+$$
+$$
+^{\circ}\text{C}
+$$
+
+Estado
+estacionario.
+Equipos
+adiabáticos.
+Sin efectos
+cinéticos ni
+potenciales.
+
+De la Tabla 16
+(aire):
+
+$$
+h_1 = 300,19
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+s^{\circ}_1 = 1,70203
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+$$
+h_2 = 400,98
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+s^{\circ}_2 = 1,99194
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+$$
+h_3 = 350,49
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+De la Tabla 2
+(agua, usando
+aproximación
+de líquido
+saturado):
+
+$$
+h_4 = 104,89
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+h_5 = 167,57
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+a) Potencia
+consumida por
+el aire en el
+compresor:
+
+Balance de
+potencia:
+
+$$
+\dot{W}_c = \dot{m}_a(h_1 - h_2)
+$$
+
+Flujo másico:
+
+$$
+v_1 = \frac{RT_1}{p_1M}
+$$
+$$
+v_1 = 0,8968
+$$
+$$
+\text{m}^3/\text{kg}
+$$
+$$
+\dot{m}_a = \frac{\dot{V}_1}{v_1}
+$$
+$$
+\dot{m}_a = 0,500
+$$
+$$
+\text{kg}/\text{s}
+$$
+
+Sustituyendo:
+
+$$
+\dot{W}_c = -50,40
+$$
+$$
+\text{kW}
+$$
+
+b) Caudal
+másico de agua:
+
+Balance en el
+enfriador:
+
+$$
+\dot{m}_a(h_2 - h_3)
+$$
+$$
++ \dot{m}_w(h_4 - h_5)
+$$
+$$
+= 0
+$$
+
+Despejando:
+
+$$
+\dot{m}_w = 0,403
+$$
+$$
+\text{kg}/\text{s}
+$$
+
+c) Generación
+de entropía:
+
+Balance de
+entropía:
+
+$$
+\dot{\sigma}_c = \dot{m}_a(s_2 - s_1)
+$$
+
+Variación de
+entropía
+específica:
+
+$$
+\Delta s = s^{\circ}_2 - s^{\circ}_1
+$$
+$$
+- \frac{R}{M}\ln\left(\frac{p_2}{p_1}\right)
+$$
+$$
+\Delta s = 0,03916
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+
+Finalmente:
+
+$$
+\dot{\sigma}_c = 19,58
+$$
+$$
+\text{W}/\text{K}
+$$
+
+---
+
+<a name="problemas-segunda-ley"></a>
+## 4. Problemas de la Segunda Ley de la Termodinámica
+
+### Problema 2
+
+Ciclo Rankine.
+
+Datos
+iniciales:
+
+$$
+\dot{m}_c = 200
+$$
+$$
+\text{kg}/\text{s}
+$$
+$$
+\eta_{t1} = 0,85
+$$
+
+Estado 1:
+
+$$
+p_1 = 14
+$$
+$$
+\text{MPa}
+$$
+$$
+T_1 = 560
+$$
+$$
+^{\circ}\text{C}
+$$
+$$
+h_1 = 3486,0
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+s_1 = 6,5941
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+
+Estado 4:
+
+$$
+p_4 = 0,04
+$$
+$$
+\text{MPa}
+$$
+$$
+v_4 = 0,0010265
+$$
+$$
+\text{m}^3/\text{kg}
+$$
+$$
+h_4 = 317,58
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+s_4 = 1,0259
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+
+Estado 6:
+
+$$
+p_6 = 2,0
+$$
+$$
+\text{MPa}
+$$
+$$
+v_6 = 0,0011767
+$$
+$$
+\text{m}^3/\text{kg}
+$$
+$$
+h_6 = 908,79
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+s_6 = 2,4474
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+
+Estado 3:
+
+$$
+p_3 = 0,04
+$$
+$$
+\text{MPa}
+$$
+$$
+x_3 = 0,90
+$$
+$$
+h_3 = 2404,9
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+a) Fracción
+másica
+extraída:
+
+Estado 2s:
+
+$$
+p_{2s} = 2,0
+$$
+$$
+\text{MPa}
+$$
+$$
+s_{2s} = s_1
+$$
+$$
+h_{2s} = 2929,2
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Rendimiento:
+
+$$
+h_2 = h_1 + \eta_{t1}
+$$
+$$
+\cdot (h_{2s} - h_1)
+$$
+$$
+h_2 = 3012,7
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Trabajos
+específicos:
+
+$$
+w_{t1} = 473,3
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+w_{t2} = 607,8
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Balance en el
+calentador
+abierto:
+
+$$
+yh_2 + (1-y)h_5
+$$
+$$
+- h_6 = 0
+$$
+
+Trabajo de la
+bomba 1:
+
+$$
+w_{b1} = -v_4(p_5-p_4)
+$$
+$$
+w_{b1} = -2,012
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Entalpía 5:
+
+$$
+h_5 = h_4 - w_{b1}
+$$
+$$
+h_5 = 315,57
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Despejando
+el valor de y:
+
+$$
+y = \frac{908,79 - 315,57}{3012,7 - 315,57}
+$$
+$$
+y = 0,2199
+$$
+
+Potencia de
+la turbina:
+
+$$
+\dot{W}_t = 200
+$$
+$$
+\text{kg}/\text{s}
+$$
+$$
+\cdot (473,3 + (1-0,2199)607,8)
+$$
+$$
+\dot{W}_t = 189,49
+$$
+$$
+\text{MW}
+$$
+
+b) Fracción
+másica
+extraída:
+
+Ya se calculó
+anteriormente:
+
+$$
+y = 0,2199
+$$
+$$
+21,99\%
+$$
+
+c) Calor en
+la caldera:
+
+Balance de
+potencia:
+
+$$
+\dot{Q}_c = \dot{m}(h_1 - h_7)
+$$
+
+Trabajo de la
+bomba 2:
+
+$$
+w_{b2} \approx -v_6(p_7 - p_6)
+$$
+$$
+w_{b2} = -14,12
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Entonces:
+
+$$
+h_7 = h_6 - w_{b2}
+$$
+$$
+h_7 = 922,91
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Sustituyendo
+valores:
+
+$$
+\dot{Q}_c = 512,62
+$$
+$$
+\text{MW}
+$$
+
+d) Rendimiento
+térmico:
+
+$$
+\eta = \frac{\dot{W}_{neta}}{\dot{Q}_c}
+$$
+
+Potencia de
+bombeo total:
+
+$$
+\dot{W}_b = -3,14
+$$
+$$
+\text{MW}
+$$
+
+Finalmente:
+
+$$
+\eta = \frac{189,49 - 3,14}{512,62}
+$$
+$$
+\eta = 0,364
+$$
+$$
+36,4\%
+$$
+
+e) Diagrama
+T-s del ciclo:
+
+Se dibuja el
+ciclo Rankine
+regenerativo
+con un
+calentador
+abierto.
+
+### Problema 3
+*(Curso
+2022/2023)*
+
+Sistema de
+turbina de aire
+regenerativa.
+
+Datos y
+suposiciones:
+
+$$
+p_1 = 1
+$$
+$$
+\text{bar}
+$$
+$$
+T_1 = 300
+$$
+$$
+\text{K}
+$$
+$$
+\dot{V}_1 = 5
+$$
+$$
+\text{m}^3/\text{s}
+$$
+$$
+p_2 = 12
+$$
+$$
+\text{bar}
+$$
+$$
+T_2 = 640
+$$
+$$
+\text{K}
+$$
+$$
+p_3 = 12
+$$
+$$
+\text{bar}
+$$
+$$
+p_4 = 12
+$$
+$$
+\text{bar}
+$$
+$$
+T_4 = 1460
+$$
+$$
+\text{K}
+$$
+$$
+p_5 = 1
+$$
+$$
+\text{bar}
+$$
+$$
+T_5 = 920
+$$
+$$
+\text{K}
+$$
+$$
+p_6 = 1
+$$
+$$
+\text{bar}
+$$
+$$
+T_6 = 720
+$$
+$$
+\text{K}
+$$
+
+Aire como
+gas ideal.
+Estado
+estacionario.
+Equipos
+adiabáticos
+excepto el
+combustor.
+
+Tabla 16:
+
+$$
+h_1 = 300,19
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+h_2 = 649,22
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+h_4 = 1587,6
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+s^{\circ}_4 = 3,41247
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+$$
+h_5 = 955,38
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+s^{\circ}_5 = 2,87324
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+$$
+h_6 = 734,82
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+a) Potencia
+neta:
+
+$$
+\dot{W}_{comp} = \dot{m}(h_1 - h_2)
+$$
+$$
+\dot{W}_{turb} = \dot{m}(h_4 - h_5)
+$$
+$$
+\dot{Q}_{comb} = \dot{m}(h_4 - h_3)
+$$
+
+Balance en
+regenerador:
+
+$$
+\dot{m}(h_2 - h_3)
+$$
+$$
++ \dot{m}(h_5 - h_6) = 0
+$$
+$$
+h_2 - h_3 = h_6 - h_5
+$$
+
+Flujo másico:
+
+$$
+v_1 = \frac{RT_1}{p_1M}
+$$
+$$
+v_1 = 0,8610
+$$
+$$
+\text{m}^3/\text{kg}
+$$
+$$
+\dot{m} = \frac{\dot{V}_1}{v_1}
+$$
+$$
+\dot{m} = 5,81
+$$
+$$
+\text{kg}/\text{s}
+$$
+
+Potencias:
+
+$$
+\dot{W}_{comp} = -2028
+$$
+$$
+\text{kW}
+$$
+$$
+\dot{W}_{turb} = 3673
+$$
+$$
+\text{kW}
+$$
+$$
+\dot{W}_{neta} = 1645
+$$
+$$
+\text{kW}
+$$
+
+b) Flujo de
+calor absorbido
+en combustor:
+
+$$
+h_3 = h_2 + h_5 - h_6
+$$
+$$
+h_3 = 869,78
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+\dot{Q}_{comb} = 4171
+$$
+$$
+\text{kW}
+$$
+
+c) Rendimiento
+isoentrópico
+de la turbina:
+
+$$
+\eta_t = \frac{h_4 - h_5}{h_4 - h_{5s}}
+$$
+
+Entropía 5s:
+
+$$
+s^{\circ}_{5s} = s^{\circ}_4 + \frac{R}{M}\ln\left(\frac{p_5}{p_4}\right)
+$$
+$$
+s^{\circ}_{5s} = 2,699335
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+
+Interpolando
+Tabla 16:
+
+$$
+h_{5s} = 807,30
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Entonces:
+
+$$
+\eta_t = \frac{1587,6 - 955,38}{1587,6 - 807,30}
+$$
+$$
+\eta_t = 0,81
+$$
+$$
+81\%
+$$
+
+d) Generación
+de entropía
+(combustor):
+
+$$
+\dot{\sigma}_{comb} = \dot{m}(s_4 - s_3)
+$$
+$$
+- \frac{\dot{Q}_{comb}}{T_{f}}
+$$
+
+Para hallar s3,
+se interpola
+con h3=869,78:
+
+$$
+s^{\circ}_3 = 2,77606
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+$$
+\Delta s = s^{\circ}_4 - s^{\circ}_3
+$$
+$$
+\Delta s = 0,63641
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+
+Flujo entropía
+aire:
+
+$$
+\dot{m}\Delta s = 3,6975
+$$
+$$
+\text{kW}/\text{K}
+$$
+
+Flujo entropía
+calor:
+
+$$
+\frac{\dot{Q}_{comb}}{1200} = 3,4758
+$$
+$$
+\text{kW}/\text{K}
+$$
+
+Generación:
+
+$$
+\dot{\sigma}_{comb} = 221,7
+$$
+$$
+\text{W}/\text{K}
+$$
+
+### Problema 4
+
+Ciclo Rankine
+con calentador
+cerrado.
+
+Datos y
+suposiciones:
+
+Estado
+estacionario.
+Equipos
+adiabáticos.
+Sin efectos
+cinéticos ni
+potenciales.
+
+Estado 1:
+
+$$
+p_1 = 180
+$$
+$$
+\text{bar}
+$$
+$$
+T_1 = 560
+$$
+$$
+^{\circ}\text{C}
+$$
+$$
+h_1 = 3444,4
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+s_1 = 6,4392
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+
+Estado 2:
+
+$$
+p_2 = 10
+$$
+$$
+\text{bar}
+$$
+$$
+T_2 = 200
+$$
+$$
+^{\circ}\text{C}
+$$
+$$
+h_2 = 2827,9
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+s_2 = 6,6940
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+
+Estado 4:
+
+$$
+p_4 = 0,20
+$$
+$$
+\text{bar}
+$$
+$$
+x_4 = 0
+$$
+$$
+v_4 = 1,0172\cdot 10^{-3}
+$$
+$$
+\text{m}^3/\text{kg}
+$$
+$$
+h_4 = 251,40
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+s_4 = 0,8320
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+
+Estado 7:
+
+$$
+p_7 = 10
+$$
+$$
+\text{bar}
+$$
+$$
+T_7 = 179,9
+$$
+$$
+^{\circ}\text{C}
+$$
+$$
+x_7 = 0
+$$
+$$
+h_7 = 762,81
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+s_7 = 2,1387
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+
+a) Flujo másico
+de extracción:
+
+Balance de
+potencia en el
+calentador
+cerrado:
+
+$$
+\dot{m}_{extr}(h_2 - h_7)
+$$
+$$
++ \dot{m}_{c}(h_5 - h_6) = 0
+$$
+
+Fracción
+extraída (y):
+
+$$
+y = \frac{h_6 - h_5}{h_2 - h_7}
+$$
+$$
+\dot{m}_{extr} = y\dot{m}_{c}
+$$
+
+Trabajo de
+la bomba:
+
+$$
+w_b = h_4 - h_5
+$$
+$$
+w_b \approx -v_4(p_5 - p_4)
+$$
+$$
+w_b = -18,2893
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Entalpía 5:
+
+$$
+h_5 = 269,69
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Entalpía 6
+(subenfriado):
+
+$$
+h_6 = 772,12
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Fracción y:
+
+$$
+y = \frac{772,12 - 269,69}{2827,9 - 762,81}
+$$
+$$
+y = 0,243
+$$
+
+Flujo de
+extracción:
+
+$$
+\dot{m}_{extr} = 24,3
+$$
+$$
+\text{kg}/\text{s}
+$$
+
+Flujo 2a etapa:
+
+$$
+\dot{m}_{t2} = 75,7
+$$
+$$
+\text{kg}/\text{s}
+$$
+
+b) Potencia
+total turbina:
+
+$$
+\dot{W}_t = \dot{W}_{t1} + \dot{W}_{t2}
+$$
+$$
+\dot{W}_t = \dot{m}_c(w_{t1} + (1-y)w_{t2})
+$$
+
+Trabajos
+específicos:
+
+$$
+w_{t1} = h_1 - h_2
+$$
+$$
+w_{t2} = h_2 - h_3
+$$
+
+Entalpía 3:
+
+$$
+h_3 = h_f + x_3h_{fg}
+$$
+$$
+h_3 = 2373,9
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Sustituyendo:
+
+$$
+w_{t1} = 616,5
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+w_{t2} = 454,0
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Trabajo de
+turbina:
+
+$$
+W_t/\dot{m}_c = 960,2
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Potencia:
+
+$$
+\dot{W}_t = 96,02
+$$
+$$
+\text{MW}
+$$
+
+c) Rendimiento
+térmico:
+
+$$
+\eta = \frac{\dot{W}_{neta}}{\dot{Q}_{abs}}
+$$
+$$
+\eta = \frac{w_{t1} + (1-y)w_{t2} - |w_b|}{q_{abs}}
+$$
+
+Calor de
+caldera:
+
+$$
+q_{abs} = h_1 - h_6
+$$
+$$
+q_{abs} = 2672,28
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Potencia
+térmica:
+
+$$
+\dot{Q}_{abs} = 267,2
+$$
+$$
+\text{MW}
+$$
+
+Rendimiento:
+
+$$
+\eta = \frac{960,2 - 18,3}{2672,28}
+$$
+$$
+\eta = 0,352
+$$
+$$
+35,2\%
+$$
+
+d) Rendimiento
+isoentrópico:
+
+$$
+\eta_{t1} = \frac{h_1 - h_2}{h_1 - h_{2s}}
+$$
+
+Estado 2s:
+
+$$
+s_{2s} = s_1
+$$
+$$
+s_{2s} = 6,4392
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+
+Título 2s:
+
+$$
+x_{2s} = 0,9669
+$$
+
+Entalpía 2s:
+
+$$
+h_{2s} = 2711,4
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Rendimiento:
+
+$$
+\eta_{t1} = \frac{3444,4 - 2827,9}{3444,4 - 2711,4}
+$$
+$$
+\eta_{t1} = 0,841
+$$
+$$
+84,1\%
+$$
+
+### Problema 5
+*(Curso
+2021/2022)*
+
+Turbina de gas
+con
+intercambiador.
+
+Datos y
+suposiciones:
+
+Aire (gas
+ideal).
+
+Estado 1:
+
+$$
+p_1 = 80
+$$
+$$
+\text{kPa}
+$$
+$$
+T_1 = 250
+$$
+$$
+\text{K}
+$$
+$$
+h_1 = 250,05
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+s^{\circ}_1 = 1,51917
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+
+Estado 3:
+
+$$
+p_3 = 800
+$$
+$$
+\text{kPa}
+$$
+$$
+T_3 = 980
+$$
+$$
+\text{K}
+$$
+$$
+\dot{V}_3 = 175
+$$
+$$
+\text{m}^3/\text{min}
+$$
+$$
+h_3 = 1023,25
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+s^{\circ}_3 = 2,94468
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+
+Estado 4:
+
+$$
+p_4 = 80
+$$
+$$
+\text{kPa}
+$$
+
+Calor
+intercambiado:
+
+$$
+\dot{Q}_{int} = 4320
+$$
+$$
+\text{kW}
+$$
+$$
+T_f = 717
+$$
+$$
+\text{K}
+$$
+
+Rendimiento
+turbina:
+
+$$
+\eta_t = 94,1\%
+$$
+
+a) Potencia del
+compresor:
+
+Balance en el
+conjunto:
+
+$$
+\dot{Q}_{int} - \dot{W}_c
+$$
+$$
++ \dot{m}(h_1 - h_3) = 0
+$$
+
+Flujo másico:
+
+$$
+\dot{V}_3 = 2,917
+$$
+$$
+\text{m}^3/\text{s}
+$$
+$$
+v_3 = \frac{RT_3}{p_3M}
+$$
+$$
+v_3 = 0,3516
+$$
+$$
+\text{m}^3/\text{kg}
+$$
+$$
+\dot{m} = \frac{\dot{V}_3}{v_3}
+$$
+$$
+\dot{m} = 8,3
+$$
+$$
+\text{kg}/\text{s}
+$$
+
+Potencia:
+
+$$
+\dot{W}_c = 4320 + 8,3
+$$
+$$
+\cdot(250,05 - 1023,25)
+$$
+$$
+\dot{W}_c = -2098
+$$
+$$
+\text{kW}
+$$
+
+Potencia
+suministrada:
+
+$$
+\dot{W}_{sum} = 2,1
+$$
+$$
+\text{MW}
+$$
+
+b) Potencia
+neta del
+sistema:
+
+Balance total:
+
+$$
+\dot{W}_{neta} = \dot{Q}_{int}
+$$
+$$
++ \dot{m}(h_1 - h_4)
+$$
+
+Entalpía 4s:
+
+$$
+s^{\circ}_{4s} = s^{\circ}_3
+$$
+$$
++ \frac{R}{M}\ln\left(\frac{p_4}{p_3}\right)
+$$
+$$
+s^{\circ}_{4s} = 2,28387
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+
+Interpolando
+(Tabla 16):
+
+$$
+h_{4s} = 536,23
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Entalpía 4 real:
+
+$$
+h_4 = h_3 - \eta_t
+$$
+$$
+\cdot(h_3 - h_{4s})
+$$
+$$
+h_4 = 564,95
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Potencia neta:
+
+$$
+\dot{W}_{neta} = 4320 + 8,3
+$$
+$$
+\cdot(250,05 - 564,95)
+$$
+$$
+\dot{W}_{neta} = 1706
+$$
+$$
+\text{kW}
+$$
+$$
+\dot{W}_{neta} = 1,7
+$$
+$$
+\text{MW}
+$$
+
+c) Generación
+de entropía:
+
+Balance global:
+
+$$
+\dot{\sigma}_{sist} = \dot{m}(s_4 - s_1)
+$$
+$$
+- \frac{\dot{Q}_{int}}{T_f}
+$$
+
+Variación de
+entropía:
+
+$$
+p_4 = p_1 = 80
+$$
+$$
+\text{kPa}
+$$
+$$
+s_4 - s_1 = s^{\circ}_4 - s^{\circ}_1
+$$
+
+Interpolando h4
+(Tabla 16):
+
+$$
+s^{\circ}_4 = 2,33645
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+
+Sustituyendo:
+
+$$
+\dot{\sigma}_{sist} = 8,30
+$$
+$$
+\cdot(2,33645 - 1,51917)
+$$
+$$
+- \frac{4320}{717}
+$$
+$$
+\dot{\sigma}_{sist} = 6,783
+$$
+$$
+- 6,025
+$$
+$$
+\dot{\sigma}_{sist} = 0,76
+$$
+$$
+\text{kW}/\text{K}
+$$
+
+### Problema 6
+
+Turbina de gas
+con
+intercambiador.
+
+Datos y
+suposiciones:
+
+Estado
+estacionario.
+Equipos
+adiabáticos.
+Aire como
+gas ideal.
+
+Estado 1:
+
+$$
+p_1 = 0,9
+$$
+$$
+\text{bar}
+$$
+$$
+T_1 = 260
+$$
+$$
+\text{K}
+$$
+$$
+h_1 = 260,09
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+s^{\circ}_1 = 1,55848
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+
+Compresor:
+
+$$
+\eta_c = 91\%
+$$
+$$
+p_2 = 16
+$$
+$$
+\text{bar}
+$$
+
+Intercambiador:
+
+$$
+\dot{Q}_{int} = 960
+$$
+$$
+\text{MW}
+$$
+$$
+T_f = 1000
+$$
+$$
+\text{K}
+$$
+$$
+p_3 = 16
+$$
+$$
+\text{bar}
+$$
+
+Turbina:
+
+$$
+p_4 = 6,0
+$$
+$$
+\text{bar}
+$$
+$$
+T_4 = 920
+$$
+$$
+\text{K}
+$$
+$$
+h_4 = 955,38
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+$$
+s^{\circ}_4 = 2,87324
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+
+Flujo másico:
+
+$$
+\dot{m} = 1320
+$$
+$$
+\text{kg}/\text{s}
+$$
+
+a) Potencia
+compresor:
+
+Trabajo
+isoentrópico:
+
+$$
+s^{\circ}_{2s} = s^{\circ}_1
+$$
+$$
++ \frac{R}{M}\ln\left(\frac{p_2}{p_1}\right)
+$$
+$$
+s^{\circ}_{2s} = 2,3844
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+
+Interpolando
+Tabla 16:
+
+$$
+h_{2s} = 592,43
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Trabajo real:
+
+$$
+w_c = \frac{h_1 - h_{2s}}{\eta_c}
+$$
+$$
+w_c = -365,21
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Potencia:
+
+$$
+\dot{W}_c = \dot{m}w_c
+$$
+$$
+\dot{W}_c = -482,1
+$$
+$$
+\text{MW}
+$$
+$$
+\dot{W}_{comp} = 482,1
+$$
+$$
+\text{MW}
+$$
+
+b) Potencia
+neta:
+
+Entalpía 2:
+
+$$
+h_2 = h_1 - w_c
+$$
+$$
+h_2 = 625,30
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Entalpía 3:
+
+$$
+h_3 = h_2 + \frac{\dot{Q}_{int}}{\dot{m}}
+$$
+$$
+h_3 = 1352,57
+$$
+$$
+\text{kJ}/\text{kg}
+$$
+
+Trabajo
+turbina:
+
+$$
+\dot{W}_t = \dot{m}(h_3 - h_4)
+$$
+$$
+\dot{W}_t = 524,3
+$$
+$$
+\text{MW}
+$$
+
+Potencia neta:
+
+$$
+\dot{W}_{neta} = \dot{W}_t - |\dot{W}_c|
+$$
+$$
+\dot{W}_{neta} = 42,2
+$$
+$$
+\text{MW}
+$$
+
+c) Generación
+de entropía:
+
+Balance global:
+
+$$
+\dot{\sigma} = \dot{m}(s_4 - s_1)
+$$
+$$
+- \frac{\dot{Q}_{int}}{T_f}
+$$
+
+Variación de
+entropía:
+
+$$
+s_4 - s_1 = s^{\circ}_4 - s^{\circ}_1
+$$
+$$
+- \frac{R}{M}\ln\left(\frac{p_4}{p_1}\right)
+$$
+$$
+s_4 - s_1 = 0,7703
+$$
+$$
+\text{kJ}/(\text{kg}\cdot\text{K})
+$$
+
+Sustituyendo:
+
+$$
+\dot{\sigma} = 1320\cdot 0,7703
+$$
+$$
+- \frac{960\cdot 10^3}{1000}
+$$
+$$
+\dot{\sigma} = 56,8
+$$
+$$
+\text{kW}/\text{K}
+$$
