@@ -13,6 +13,10 @@ Variación de
 entropía:
 $$s_2 - s_1 = s^\circ(T_2) - s^\circ(T_1) - \frac{R}{M}\ln\left(\frac{p_2}{p_1}\right)$$
 
+Con calores
+específicos:
+$$s_2 - s_1 = c_p\ln\left(\frac{T_2}{T_1}\right) - R\ln\left(\frac{p_2}{p_1}\right)$$
+
 Proceso
 isoentrópico:
 $$s_2 - s_1 = 0$$
@@ -49,12 +53,20 @@ Calor
 absorbido:
 $$\dot{Q}_{in} = \dot{m}(h_{sal}-h_{ent})$$
 
+Regenerador
+(Eficiencia):
+$$\varepsilon = \frac{h_x - h_2}{h_4 - h_2}$$
+
 ## 3. Ciclos de
 Vapor (Rankine)
 
 Trabajo de
 bomba:
 $$w_b \approx v_f(p_{out}-p_{in})$$
+
+Eficiencia
+bomba:
+$$\eta_b = \frac{w_{s,b}}{w_b}$$
 
 Rendimiento
 térmico:
@@ -70,3 +82,83 @@ $$y = \frac{\dot{m}_{extr}}{\dot{m}_{tot}}$$
 
 Balance:
 $$y h_{extr} + (1-y) h_{bomb} = h_{salida}$$
+
+Calentador
+cerrado:
+$$y(h_{ent} - h_{sal}) = 1(h_{out} - h_{in})$$
+
+## 4. Consejos y
+Procedimiento
+
+Esquema:
+Dibuja el
+sistema y el
+diagrama:
+$$T-s$$
+para ver las
+etapas.
+
+Propiedades:
+Gas ideal
+(aire): usa la
+tabla de gas
+ideal para:
+$$h$$
+y
+$$s^\circ$$
+según la
+temperatura.
+Vapor (agua):
+comprueba si es
+mezcla, líquido
+subenfriado o
+sobrecalentado.
+
+Isentrópico:
+Para
+rendimientos,
+calcula
+primero el
+estado ideal:
+$$s_2 = s_1$$
+Despeja la:
+$$h_{2s}$$
+ideal y usa
+el rendimiento
+para sacar la
+entalpía real.
+
+Bombas:
+Aproxima el
+trabajo con el
+volumen
+específico del
+líquido
+saturado:
+$$v_f$$
+multiplicado
+por:
+$$\Delta p$$
+
+Cuidado con
+las unidades:
+Si usas
+presión en:
+$$\text{kPa}$$
+y volumen en:
+$$\text{m}^3/\text{kg}$$
+el trabajo sale
+directamente
+en:
+$$\text{kJ/kg}$$
+
+Balances:
+En los
+calentadores y
+enfriadores,
+el calor
+cedido por una
+corriente
+iguala al que
+absorbe la
+otra.
