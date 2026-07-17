@@ -1,969 +1,521 @@
-# Problemas y Ejercicios - Segundo Parcial
+# Problemas y
+Ejercicios -
+Segundo Parcial
 
-Este documento contendrá una recopilación de problemas (resueltos paso a paso) para la preparación del segundo parcial.
+Este documento
+contiene una
+recopilación
+de problemas
+detallados y
+explicados
+paso a paso.
 
 ## Índice
-1. [Problemas de Transmisión de Calor por Conducción](#conduccion)
-2. [Problemas de Convección y Cambios de Fase](#conveccion)
-3. [Problemas de Radiación Térmica](#radiacion)
-4. [Otros Sistemas Termodinámicos y Ciclos Avanzados](#ciclos-avanzados)
+1. Conducción y
+Convección
+(Aletas)
+2. Radiación
+Térmica
 
 ---
 
-<a name="conduccion"></a>
-## 1. Problemas de Transmisión de Calor por Conducción
+<a name="aletas"></a>
+## 1. Problemas
+de Conducción y
+Convección
+(Aletas)
 
-(Próximamente)
+### Problema 1.1:
+Evaporador de
+tubo aleteado
+**Enunciado:**
+El evaporador
+de un sistema
+de
+acondicionamiento
+de aire está
+formado por un
+tubo de cobre:
+$$k_{Cu} = 386$$
+$$\text{W/(m}\cdot\text{K)}$$
+de diámetro
+interior:
+$$20$$
+$$\text{mm}$$
+y espesor de
+pared:
+$$2,5$$
+$$\text{mm}$$
+con aletas
+anulares de
+perfil
+rectangular
+construidas en
+aluminio:
+$$k_{Al} = 186$$
+$$\text{W/(m}\cdot\text{K)}$$
+de espesor:
+$$0,5$$
+$$\text{mm}$$
+diámetro
+exterior:
+$$49,5$$
+$$\text{mm}$$
+espaciadas:
+$$2$$
+$$\text{mm}$$
+entre sí. El
+refrigerante
+circula por el
+interior del
+tubo de cobre a:
+$$-2$$
+$$^{\circ}\text{C}$$
+la temperatura
+del aire en el
+exterior es de:
+$$28$$
+$$^{\circ}\text{C}$$
+y los
+coeficientes
+de transmisión
+de calor en el
+interior y el
+exterior del
+tubo son:
+$$1200$$
+$$\text{W/(m}^2\cdot\text{K)}$$
+y:
+$$100$$
+$$\text{W/(m}^2\cdot\text{K)}$$
+respectivamente.
+Determine:
+a) El
+rendimiento y
+la resistencia
+térmica de una
+aleta.
+b) El flujo de
+calor
+intercambiado
+por el sistema
+por unidad de
+longitud.
+c) El
+coeficiente
+global de
+transmisión de
+calor referido
+a la superficie
+exterior del
+tubo.
 
----
+**Descripción
+del diagrama:**
+Muestra un tubo
+cilíndrico
+central por
+cuyo interior
+fluye
+refrigerante.
+En la parte
+externa del
+tubo hay
+adosadas
+múltiples
+aletas en forma
+de disco
+(anulares)
+separadas por
+un espacio
+regular. Se
+indican las
+medidas de los
+radios del tubo
+y de las aletas.
 
-<a name="conveccion"></a>
-## 2. Problemas de Convección y Cambios de Fase
+**Resolución:**
+**Consideraciones
+e hipótesis:**
+1. Sistema
+estacionario.
+2. Transmisión
+de calor
+unidimensional
+radial.
+3. No hay
+generación
+interna.
+4. Conductividad
+constante.
+5. Radiación
+despreciable.
 
-### Problema 1
+**Paso 1: Cálculo
+de dimensiones**
+Radios del
+sistema:
+Radio interior
+del tubo:
+$$r_0 = 10$$
+$$\text{mm}$$
+$$r_0 = 0,010$$
+$$\text{m}$$
+Radio exterior
+del tubo:
+$$r_1 = 12,5$$
+$$\text{mm}$$
+$$r_1 = 0,0125$$
+$$\text{m}$$
+Radio exterior
+de la aleta:
+$$r_2 = 24,75$$
+$$\text{mm}$$
+Longitud de la
+aleta:
+$$L = 12,25$$
+$$\text{mm}$$
+Espesor de la
+aleta:
+$$t = 0,5$$
+$$\text{mm}$$
 
-Horno de tres
-superficies.
+Longitud y
+radio
+corregidos:
+$$L_c = L + \frac{t}{2}$$
+$$L_c = 12,5$$
+$$\text{mm}$$
+$$r_{2c} = r_1 + L_c$$
+$$r_{2c} = 25$$
+$$\text{mm}$$
 
-Datos y
-propiedades:
+Parámetros para
+el gráfico
+(aletas
+anulares):
+$$\frac{r_{2c}}{r_1} = 2,0$$
+Área de perfil
+de la aleta:
+$$A_p = L_c \cdot t$$
+$$A_p = 6,25 \times 10^{-6}$$
+$$\text{m}^2$$
+Parámetro X:
+$$L_c^{3/2} \sqrt{\frac{h_{ext}}{k_{Al} A_p}}$$
+$$X = 0,41$$
+Rendimiento de
+la aleta:
+$$\eta_a = 0,87$$
 
-Placa inferior
-(Suelo, 1):
+Área de
+transferencia
+de una aleta:
+$$A_{aleta} = 2\pi(r_{2c}^2 - r_1^2)$$
+$$A_{aleta} = 2,945 \times 10^{-3}$$
+$$\text{m}^2$$
+Resistencia
+térmica aleta:
+$$R_{aleta} = \frac{1}{\eta_a h_{ext} A_{aleta}}$$
+$$R_{aleta} = 3,90$$
+$$\text{K/W}$$
 
-$$
-\varepsilon_1 = 0,6
-$$
-$$
-T_1 = 200
-$$
-$$
-^{\circ}\text{C}
-$$
-$$
-T_1 = 473
-$$
-$$
-\text{K}
-$$
-$$
-A_1 = 3,5 \times 3
-$$
-$$
-A_1 = 10,5
-$$
-$$
-\text{m}^2
-$$
+**Paso 2: Flujo
+de calor total**
+Número de
+aletas por
+metro:
+$$n = \frac{1}{2,5 \times 10^{-3}}$$
+$$n = 400$$
+$$\text{aletas/m}$$
 
-Placa superior
-(Techo, 2):
+Resistencia
+convección
+interna:
+$$R'_{h1} = \frac{1}{h_{int} 2\pi r_0}$$
+$$R'_{h1} = 0,01326$$
+$$\text{m}\cdot\text{K/W}$$
 
-$$
-\varepsilon_2 = 0,8
-$$
-$$
-T_2 = 400
-$$
-$$
-^{\circ}\text{C}
-$$
-$$
-T_2 = 673
-$$
-$$
-\text{K}
-$$
-$$
-A_2 = 10,5
-$$
-$$
-\text{m}^2
-$$
+Resistencia
+conducción
+cobre:
+$$R'_k = \frac{\ln(r_1/r_0)}{2\pi k_{Cu}}$$
+$$R'_k = 0,00009$$
+$$\text{m}\cdot\text{K/W}$$
 
-Paredes (3):
+Resistencia
+aletas en
+paralelo:
+$$R'_{N-aletas} = \frac{R_{aleta}}{n}$$
+$$R'_{N-aletas} = 0,00975$$
+$$\text{m}\cdot\text{K/W}$$
 
-Rerradiantes.
+Resistencia
+espacios libres:
+$$A'_{entre} = 2\pi r_1 (1 - n \cdot t)$$
+$$A'_{entre} = 0,06283$$
+$$\text{m}^2/\text{m}$$
+$$R'_{entre} = \frac{1}{h_{ext} A'_{entre}}$$
+$$R'_{entre} = 0,15916$$
+$$\text{m}\cdot\text{K/W}$$
 
-$$
-q_3 = 0
-$$
+Resistencia
+exterior
+equivalente:
+$$R'_{ext} = \left( \frac{1}{R'_{N-aletas}} + \frac{1}{R'_{entre}} \right)^{-1}$$
+$$R'_{ext} = 0,00919$$
+$$\text{m}\cdot\text{K/W}$$
 
-Constante de
-Stefan-
-Boltzmann:
+Resistencia
+total:
+$$R'_{total} = R'_{h1} + R'_k + R'_{ext}$$
+$$R'_{total} = 0,02254$$
+$$\text{m}\cdot\text{K/W}$$
 
-$$
-\sigma = 5,67\cdot 10^{-8}
-$$
-$$
-\text{W}/(\text{m}^2\cdot\text{K}^4)
-$$
+Flujo de calor:
+$$q' = \frac{T_{ext} - T_{int}}{R'_{total}}$$
+$$q' = 1331$$
+$$\text{W/m}$$
 
-a) Circuito
-térmico:
+**Paso 3:
+Coeficiente
+global**
+$$U_{ext} = \frac{1}{2\pi r_1 R'_{total}}$$
+$$U_{ext} = 565$$
+$$\text{W/(m}^2\cdot\text{K)}$$
 
-El horno es
-un recinto de
-3 superficies.
-El suelo y el
-techo son
-grises, y las
-paredes son
-rerradiantes
-(punto flotante
-$J_3 = E_{b3}$).
-
+### Problema 1.2:
+Intercambiador
+tubo aleteado
+recto
+**Enunciado:**
+Tubo de cobre:
+$$k_{Cu} = 386$$
+$$\text{W/(m}\cdot\text{K)}$$
+de diámetro
+interior:
+$$20$$
+$$\text{mm}$$
+espesor pared:
+$$2,5$$
+$$\text{mm}$$
+8 aletas
+rectas de
+aluminio:
+$$k_{Al} = 186$$
+$$\text{W/(m}\cdot\text{K)}$$
+espesor aleta:
+$$0,5$$
+$$\text{mm}$$
+longitud:
+$$15$$
+$$\text{mm}$$
+Agua caliente
+interior a:
+$$160$$
+$$^{\circ}\text{C}$$
+aire exterior a:
+$$28$$
+$$^{\circ}\text{C}$$
+coeficiente
+interior:
+$$1200$$
+$$\text{W/(m}^2\cdot\text{K)}$$
+coeficiente
+exterior:
+$$100$$
+$$\text{W/(m}^2\cdot\text{K)}$$
+Determine:
+a) Rendimiento
+y resistencia
+de una aleta.
 b) Flujo de
-calor neto:
-
-Factores de
-forma (Tabla J):
-
-$$
-L_1/D = 0,78
-$$
-$$
-L_2/D = 0,67
-$$
-$$
-F_{12} \approx 0,125
-$$
-
-Propiedades de
-factores:
-
-$$
-F_{11} = 0
-$$
-$$
-F_{13} = 1 - F_{12}
-$$
-$$
-F_{13} = 0,875
-$$
-$$
-F_{23} = F_{13}
-$$
-$$
-F_{23} = 0,875
-$$
-
-Resistencias:
-
-$$
-R_1 = \frac{1-\varepsilon_1}{A_1\varepsilon_1}
-$$
-$$
-R_1 = 0,06349
-$$
-$$
-\text{m}^{-2}
-$$
-$$
-R_{12} = \frac{1}{A_1 F_{12}}
-$$
-$$
-R_{12} = 0,7619
-$$
-$$
-\text{m}^{-2}
-$$
-$$
-R_{13} = R_{23}
-$$
-$$
-R_{13} = 0,1088
-$$
-$$
-\text{m}^{-2}
-$$
-$$
-R_2 = \frac{1-\varepsilon_2}{A_2\varepsilon_2}
-$$
-$$
-R_2 = 0,02381
-$$
-$$
-\text{m}^{-2}
-$$
-
-Resistencia
-equivalente:
-
-$$
-R_{eq1} = \left(\frac{1}{R_{12}} + \frac{1}{R_{13}+R_{23}}\right)^{-1}
-$$
-$$
-R_{eq1} = 0,1693
-$$
-$$
-\text{m}^{-2}
-$$
-$$
-R_{eq} = R_1 + R_{eq1} + R_2
-$$
-$$
-R_{eq} = 0,2566
-$$
-$$
-\text{m}^{-2}
-$$
-
-Flujo de calor:
-
-$$
-q_1 = \frac{E_{b1} - E_{b2}}{R_{eq}}
-$$
-$$
-q_1 = \frac{\sigma(T_1^4 - T_2^4)}{R_{eq}}
-$$
-$$
-q_1 = -34269,7
-$$
-$$
-\text{W}
-$$
-
-Radiosidades:
-
-$$
-J_1 = E_{b1} - q_1R_1
-$$
-$$
-J_1 = 5013,9
-$$
-$$
-\text{W}/\text{m}^2
-$$
-$$
-J_2 = E_{b2} + q_1R_2
-$$
-$$
-J_2 = 10815,7
-$$
-$$
-\text{W}/\text{m}^2
-$$
-
-Radiación suelo
-y techo:
-
-$$
-q_{12} = \frac{J_1 - J_2}{R_{12}}
-$$
-$$
-q_{12} = -7614,9
-$$
-$$
-\text{W}
-$$
-
-c) Temperatura
-paredes:
-
-$$
-E_{b3} = \sigma T_3^4
-$$
-
-En el circuito:
-
-$$
-E_{b3} = \frac{J_1 + J_2}{2}
-$$
-$$
-E_{b3} = 7914,8
-$$
-$$
-\text{W}/\text{m}^2
-$$
-$$
-T_3 = \left(\frac{E_{b3}}{\sigma}\right)^{1/4}
-$$
-$$
-T_3 = 611,24
-$$
-$$
-\text{K}
-$$
-$$
-T_3 = 338
-$$
-$$
-^{\circ}\text{C}
-$$
-
-### Problema 2
-
-Dos placas
-rectangulares
-unidas por una
-arista.
-
-Datos y
-propiedades:
-
-Placa vertical
-(Negra, 1):
-
-$$
-T_1 = 780
-$$
-$$
-^{\circ}\text{C}
-$$
-$$
-T_1 = 1053
-$$
-$$
-\text{K}
-$$
-$$
-q_1 = 1792,5
-$$
-$$
-\text{kW}
-$$
-$$
-L = 4,9
-$$
-$$
-\text{m}
-$$
-$$
-D = 5,4
-$$
-$$
-\text{m}
-$$
-
-Placa
-horizontal
-(Gris, 2):
-
-$$
-\varepsilon_2 = 0,69
-$$
-$$
-W = 3,7
-$$
-$$
-\text{m}
-$$
-
-Paredes de
-habitación (3):
-
-$$
-T_3 = 15
-$$
-$$
-^{\circ}\text{C}
-$$
-$$
-T_3 = 288
-$$
-$$
-\text{K}
-$$
-$$
-\varepsilon_3 = 0,69
-$$
-
-a) Flujo entre
-placa 1 y
-paredes:
-
-Habitación
-grande:
-
-$$
-A_3 \gg A_1, A_2
-$$
-$$
-R_3 \to 0
-$$
-$$
-J_3 = E_{b3}
-$$
-
-Flujo 1-3:
-
-$$
-q_{13} = A_1 F_{13}\sigma(T_1^4 - T_3^4)
-$$
-
-Factores de
-forma (J2):
-
-$$
-R_1 = \frac{4,9}{5,4} = 0,907
-$$
-$$
-R_2 = \frac{3,7}{5,4} = 0,685
-$$
-$$
-F_{12} = 0,19
-$$
-
-Aditividad y
-reciprocidad:
-
-$$
-F_{13} = 1 - F_{12}
-$$
-$$
-F_{13} = 0,81
-$$
-$$
-A_1 F_{12} = A_2 F_{21}
-$$
-$$
-F_{21} = \frac{A_1}{A_2}F_{12}
-$$
-$$
-F_{21} = 0,25
-$$
-$$
-F_{23} = 1 - F_{21}
-$$
-$$
-F_{23} = 0,75
-$$
-
-Sustituyendo:
-
-$$
-q_{13} = A_1\cdot 0,81
-$$
-$$
-\cdot\sigma(1053^4 - 288^4)
-$$
-$$
-q_{13} = 1485,7
-$$
-$$
-\text{kW}
-$$
-
-b) Flujo neto
-entre placas:
-
-Balance:
-
-$$
-q_1 = q_{12} + q_{13}
-$$
-$$
-q_{12} = q_1 - q_{13}
-$$
-$$
-q_{12} = 306,82
-$$
-$$
-\text{kW}
-$$
-
-c) Temperatura
-placa 2:
-
-$$
-q_2 = \frac{E_{b2} - J_2}{R_2}
-$$
-$$
-E_{b2} = q_2R_2 + J_2
-$$
-$$
-T_2 = \left(\frac{q_2R_2 + J_2}{\sigma}\right)^{1/4}
-$$
-
-Radiosidad J2:
-
-$$
-q_{12} = \frac{E_{b1} - J_2}{R_{12}}
-$$
-$$
-J_2 = \sigma T_1^4 - \frac{q_{12}}{A_1F_{12}}
-$$
-$$
-J_2 = 8680,7
-$$
-$$
-\text{W}/\text{m}^2
-$$
-
-Balance J2:
-
-$$
-q_2 + q_{12} = q_{23}
-$$
-$$
-q_2 = q_{23} - q_{12}
-$$
-
-Flujo q23:
-
-$$
-q_{23} = A_2F_{23}(J_2 - \sigma T_3^4)
-$$
-$$
-q_{23} = 124,23
-$$
-$$
-\text{kW}
-$$
-
-Flujo neto q2:
-
-$$
-q_2 = 124,23 - 306,82
-$$
-$$
-q_2 = -182,59
-$$
-$$
-\text{kW}
-$$
-
-Temperatura 2:
-
-$$
-T_2 = 533
-$$
-$$
-\text{K}
-$$
-$$
-T_2 = 260
-$$
-$$
-^{\circ}\text{C}
-$$
-
-### Problema 3
-
-Horno cilíndrico
-abierto.
-
-Datos y
-propiedades:
-
-Placa
-calefactora (1):
-
-$$
-\varepsilon_1 = 0,9
-$$
-$$
-T_1 = 500
-$$
-$$
-^{\circ}\text{C}
-$$
-$$
-T_1 = 773
-$$
-$$
-\text{K}
-$$
-$$
-D = 0,5
-$$
-$$
-\text{m}
-$$
-
-Superficie
-lateral (2):
-
-Aislada.
-
-$$
-\varepsilon_2 = 0,6
-$$
-$$
-L = 0,5
-$$
-$$
-\text{m}
-$$
-
-Habitación (3):
-
-$$
-T_3 = 27
-$$
-$$
-^{\circ}\text{C}
-$$
-$$
-T_3 = 300
-$$
-$$
-\text{K}
-$$
-$$
-\varepsilon_3 = 0,8
-$$
-
-a) Circuito
-térmico:
-
-El recinto tiene
-3 superficies.
-La pared lateral
-está aislada,
-así que es un
-nudo flotante y:
-
-$$
-J_2 = E_{b2}
-$$
-
-Habitación
-grande:
-
-$$
-R_3 \to 0
-$$
-
-b) Flujo neto
-placa (1):
-
-Factor de
-forma 1-3:
-Superficie
-imaginaria 3':
-
-$$
-d/x = 1
-$$
-$$
-F_{13'} \approx 0,18
-$$
-$$
-F_{13} = 0,18
-$$
-
-Área placa:
-
-$$
-A_1 = \pi r^2
-$$
-$$
-A_1 = 19,63\cdot 10^{-2}
-$$
-$$
-\text{m}^2
-$$
-
-Resistencias
-de forma:
-
-$$
-R_{13} = \frac{1}{A_1F_{13}}
-$$
-$$
-R_{13} = 28,3
-$$
-$$
-\text{m}^{-2}
-$$
-$$
-F_{12} = 1 - F_{13}
-$$
-$$
-F_{12} = 0,82
-$$
-$$
-R_{12} = \frac{1}{A_1F_{12}}
-$$
-$$
-R_{12} = 6,21
-$$
-$$
-\text{m}^{-2}
-$$
-
-Por simetría:
-
-$$
-F_{32} = F_{12} = 0,82
-$$
-$$
-R_{23} = 6,21
-$$
-$$
-\text{m}^{-2}
-$$
-
-Resistencia
-superficial:
-
-$$
-R_1 = \frac{1-\varepsilon_1}{A_1\varepsilon_1}
-$$
-$$
-R_1 = 0,566
-$$
-$$
-\text{m}^{-2}
-$$
-
-Resistencia
-equivalente:
-
-$$
-R_{eq} = R_1 + R_{eq1}
-$$
-$$
-R_{eq1} = \left(\frac{1}{R_{12}+R_{23}} + \frac{1}{R_{13}}\right)^{-1}
-$$
-$$
-R_{eq} = 9,20
-$$
-$$
-\text{m}^{-2}
-$$
-
-Flujo de calor:
-
-$$
-q_1 = \frac{\sigma(T_1^4 - T_3^4)}{R_{eq}}
-$$
-$$
-q_1 = 2150,5
-$$
-$$
-\text{W}
-$$
-
-c) Temperatura
-superficie 2:
-
-$$
-E_{b2} = \sigma T_2^4
-$$
-
-Nudo flotante:
-
-$$
-E_{b2} = \frac{R_{12}E_{b3} + R_{23}J_1}{R_{12} + R_{23}}
-$$
-
-Radiosidad 1:
-
-$$
-J_1 = E_{b1} - q_1R_1
-$$
-$$
-J_1 = 19027,0
-$$
-$$
-\text{W}/\text{m}^2
-$$
-
-Sustituyendo:
-
-$$
-E_{b2} = 9743,1
-$$
-$$
-\text{W}/\text{m}^2
-$$
-
-Temperatura 2:
-
-$$
-T_2 = \left(\frac{E_{b2}}{\sigma}\right)^{1/4}
-$$
-$$
-T_2 = 644
-$$
-$$
-\text{K}
-$$
-$$
-T_2 = 371
-$$
-$$
-^{\circ}\text{C}
-$$
-
-### Problema 4
-
-Colector solar
-(triángulo
-equilátero).
-
-Datos y
-propiedades:
-
-Conducto:
-Largo infinito.
-Lado:
-
-$$
-L = 1,0
-$$
-$$
-\text{m}
-$$
-
-Cubierta de
-vidrio (1):
-
-$$
-\varepsilon_1 = 0,9
-$$
-$$
-T_1 = 25
-$$
-$$
-^{\circ}\text{C}
-$$
-$$
-T_1 = 298
-$$
-$$
-\text{K}
-$$
-
-Placa
-absorbente 2
-(Negra):
-
-$$
-T_2 = 60
-$$
-$$
-^{\circ}\text{C}
-$$
-$$
-T_2 = 333
-$$
-$$
-\text{K}
-$$
-
-Placa
-absorbente 3
-(Negra):
-
-$$
-T_3 = 70
-$$
-$$
-^{\circ}\text{C}
-$$
-$$
-T_3 = 343
-$$
-$$
-\text{K}
-$$
-
-a) Circuito
-térmico:
-
-El conducto es
-muy largo, se
-desprecian los
-extremos.
-Es un recinto
-cerrado de 3
-superficies.
-Superficie 1 es
-gris.
-Superficies 2
-y 3 son negras.
-
-b) Flujo neto
-cubierta (1):
-
-Ecuaciones:
-
-$$
-q_1 = \frac{E_{b1} - J_1}{R_1}
-$$
-$$
-q_1 = q_{12} + q_{13}
-$$
-$$
-q_{12} = \frac{J_1 - E_{b2}}{R_{12}}
-$$
-$$
-q_{13} = \frac{J_1 - E_{b3}}{R_{13}}
-$$
-
-Igualando:
-
-$$
-\frac{E_{b1} - J_1}{R_1} = q_{12} + q_{13}
-$$
-
-Despejando J1:
-
-$$
-J_1 = \frac{\frac{\varepsilon_1}{1-\varepsilon_1}E_{b1} + F_{12}E_{b2} + F_{13}E_{b3}}{F_{12} + F_{13} + \frac{\varepsilon_1}{1-\varepsilon_1}}
-$$
-
-Factores de
-forma:
-
-Áreas iguales:
-
-$$
-A_1 = A_2 = A_3 = A
-$$
-
-Por simetría:
-
-$$
-F_{12} = F_{13} = F_{23}
-$$
-
-Aditividad:
-
-$$
-F_{11} + 2F_{12} = 1
-$$
-$$
-F_{12} = 1/2
-$$
-
-Radiosidad 1:
-
-$$
-J_1 = 476,53
-$$
-$$
-\text{W}/\text{m}^2
-$$
-
-Flujo de calor
-por longitud:
-
-$$
-q'_1 = \frac{\sigma T_1^4 - J_1}{\frac{1-\varepsilon_1}{L\cdot\varepsilon_1}}
-$$
-$$
-q'_1 = -264,5
-$$
-$$
-\text{W}/\text{m}
-$$
+calor por
+unidad de
+longitud.
+
+**Resolución:**
+**Paso 1: Aletas**
+$$r_1 = 10$$
+$$\text{mm}$$
+$$r_2 = 12,5$$
+$$\text{mm}$$
+$$L_c = L + \frac{t}{2} = 15,25$$
+$$\text{mm}$$
+$$A_p = 7,625 \times 10^{-6}$$
+$$\text{m}^2$$
+$$X = L_c^{3/2} \sqrt{\frac{h_{ext}}{k_{Al} A_p}}$$
+$$X = 0,50$$
+$$\eta_{aleta} = 0,86$$
+$$A_{aleta} = 0,0305$$
+$$\text{m}^2/\text{m}$$
+$$R_{aleta} = 0,3812$$
+$$\text{m}\cdot\text{K/W}$$
+
+**Paso 2: Flujo**
+$$R'_{h,int} = 0,01326$$
+$$\text{m}\cdot\text{K/W}$$
+$$R'_k = 0,000092$$
+$$\text{m}\cdot\text{K/W}$$
+$$R'_{8-aletas} = 0,04765$$
+$$\text{m}\cdot\text{K/W}$$
+$$A'_{entre} = 0,07454$$
+$$\text{m}^2/\text{m}$$
+$$R'_{entre} = 0,13416$$
+$$\text{m}\cdot\text{K/W}$$
+$$R'_{ext} = 0,03516$$
+$$\text{m}\cdot\text{K/W}$$
+$$R'_{total} = 0,0485$$
+$$\text{m}\cdot\text{K/W}$$
+$$q' = 2721$$
+$$\text{W/m}$$
 
 ---
 
 <a name="radiacion"></a>
-## 3. Problemas de Radiación Térmica
+## 2. Radiación
+Térmica
 
-(Próximamente)
+### Problema 2.1:
+Horno
+**Enunciado:**
+Placa inferior:
+$$\varepsilon_1 = 0,6$$
+$$T_1 = 200$$
+$$^{\circ}\text{C}$$
+Placa superior:
+$$\varepsilon_2 = 0,8$$
+$$T_2 = 400$$
+$$^{\circ}\text{C}$$
+Paredes
+laterales:
+Rerradiantes.
+Dimensiones
+suelo y techo:
+$$3 \times 3,5$$
+$$\text{m}$$
+Altura:
+$$4,5$$
+$$\text{m}$$
+a) Circuito.
+b) Flujo neto
+entre placas.
+c) Temperatura
+paredes.
+Dato:
+$$\sigma = 5,67 \times 10^{-8}$$
+$$\text{W/(m}^2\text{K}^4\text{)}$$
 
----
+**Resolución:**
+**Paso 1:
+Circuito**
+Tres nodos de
+radiosidad:
+$$J_1, J_2, J_3$$
+Tres nodos de
+potencia:
+$$E_{b1}, E_{b2}, E_{b3}$$
+Nodo 3 es
+rerradiante:
+$$q_3 = 0$$
+$$E_{b3} = J_3$$
 
-<a name="ciclos-avanzados"></a>
-## 4. Otros Sistemas Termodinámicos y Ciclos Avanzados
+**Paso 2:
+Áreas**
+$$A_1 = 10,5$$
+$$\text{m}^2$$
+$$A_2 = 10,5$$
+$$\text{m}^2$$
+Factores:
+$$\frac{L_1}{D} = 0,78$$
+$$\frac{L_2}{D} = 0,67$$
+$$F_{12} = 0,125$$
+$$F_{13} = 0,875$$
+$$F_{23} = 0,875$$
 
-(Próximamente)
+**Paso 3:
+Resistencias**
+$$R_{s1} = 0,06349$$
+$$\text{m}^{-2}$$
+$$R_{s2} = 0,02381$$
+$$\text{m}^{-2}$$
+$$R_{12} = 0,7619$$
+$$\text{m}^{-2}$$
+$$R_{13} = 0,1088$$
+$$\text{m}^{-2}$$
+$$R_{23} = 0,1088$$
+$$\text{m}^{-2}$$
+
+**Paso 4: Calor**
+$$R_{geom} = 0,1693$$
+$$\text{m}^{-2}$$
+$$R_{eq} = 0,2566$$
+$$\text{m}^{-2}$$
+$$q_1 = \frac{E_{b1} - E_{b2}}{R_{eq}}$$
+$$q_1 = -34269,7$$
+$$\text{W}$$
+
+**Paso 5:
+Temperatura**
+$$J_1 = 5013,9$$
+$$\text{W/m}^2$$
+$$J_2 = 10815,7$$
+$$\text{W/m}^2$$
+$$E_{b3} = \frac{J_1 + J_2}{2}$$
+$$E_{b3} = 7914,8$$
+$$\text{W/m}^2$$
+$$T_3 = 338$$
+$$^{\circ}\text{C}$$
+
+### Problema 2.2:
+Colector solar
+triangular
+**Enunciado:**
+Triángulo
+equilátero de:
+$$1$$
+$$\text{m}$$
+de lado.
+Vidrio (1):
+$$\varepsilon_1 = 0,9$$
+$$T_1 = 25$$
+$$^{\circ}\text{C}$$
+Placa (2):
+$$\varepsilon_2 = 1$$
+$$T_2 = 60$$
+$$^{\circ}\text{C}$$
+Placa (3):
+$$\varepsilon_3 = 1$$
+$$T_3 = 70$$
+$$^{\circ}\text{C}$$
+Calcule flujo
+neto a la
+cubierta.
+
+**Resolución:**
+**Paso 1:
+Factores**
+Por simetría:
+$$F_{12} = F_{13} = 0,5$$
+
+**Paso 2:
+Calor**
+$$E_{b1} = 447,1$$
+$$\text{W/m}^2$$
+$$E_{b2} = 698,0$$
+$$\text{W/m}^2$$
+$$E_{b3} = 787,0$$
+$$\text{W/m}^2$$
+$$R_{s1} = 0,1111$$
+$$\text{m}^{-1}$$
+$$R_{12} = 2,0$$
+$$\text{m}^{-1}$$
+$$R_{13} = 2,0$$
+$$\text{m}^{-1}$$
+
+Balance en J1:
+$$\frac{E_{b1} - J_1}{R_{s1}} = \frac{J_1 - E_{b2}}{R_{12}} + \frac{J_1 - E_{b3}}{R_{13}}$$
+$$J_1 = 476,64$$
+$$\text{W/m}^2$$
+$$q_1 = \frac{E_{b1} - J_1}{R_{s1}}$$
+$$q_1 = -265,9$$
+$$\text{W/m}$$
