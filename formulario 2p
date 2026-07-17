@@ -34,6 +34,14 @@ superficie
 libre:
 $$R_{entre} = \frac{1}{h A_{entre}}$$
 
+Área libre
+(rectas):
+$$A_{entre} = w L - N(t L)$$
+
+Área libre
+(anulares):
+$$A_{entre} = 2\pi r_1(L - N t)$$
+
 Resistencia
 exterior
 equivalente:
@@ -79,3 +87,63 @@ $$J_i = E_{bi}$$
 
 Flujo neto:
 $$q_i = \frac{E_{bi} - J_i}{R_{sup,i}} = \sum_j \frac{J_i - J_j}{R_{ij}}$$
+
+Intercambio 2
+superficies:
+$$q_{12} = \frac{\sigma(T_1^4 - T_2^4)}{R_{sup,1} + R_{12} + R_{sup,2}}$$
+
+Resistencia
+pantalla:
+$$R_p = \frac{1-\varepsilon_p}{A_p\varepsilon_p} + \frac{1-\varepsilon_p}{A_p\varepsilon_p}$$
+
+## 3. Consejos y
+Procedimiento
+
+Conducción:
+Dibuja el
+circuito de
+resistencias
+(serie y
+paralelo)
+antes de
+calcular.
+Para aletas,
+verifica si
+son rectas o
+anulares al
+buscar el
+área y el
+rendimiento.
+El área libre
+es el área del
+tubo restando
+la base de las
+aletas.
+
+Radiación:
+Las
+temperaturas
+siempre van
+en grados:
+$$\text{Kelvin}$$
+Superficie
+rerradiante:
+Está aislada,
+su flujo es
+cero y el nodo
+de emisión
+iguala al de
+radiosidad:
+$$E_b = J$$
+Planas o
+convexas:
+No se "ven" a
+sí mismas,
+por lo que:
+$$F_{11} = 0$$
+En recintos
+cerrados usa
+la aditividad
+para sacar
+factores
+desconocidos.
